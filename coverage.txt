@@ -1,0 +1,2308 @@
+﻿
+> etudiant-frontend@0.0.0 test
+> jest --coverage --coveragePathIgnorePatterns=/node_modules/
+
+node.exe : PASS src/app/services/student.service.spec.ts
+Au caractère Ligne:1 : 1
++ & "C:\Program Files\nodejs/node.exe" "C:\Program Files\nodejs/node_mo ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (PASS src/app/se...service.spec.ts:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+PASS src/app/services/auth.service.spec.ts
+PASS src/app/core/service/user.service.spec.ts
+PASS src/app/pages/auth/login.component.spec.ts
+PASS src/app/app.component.spec.ts
+PASS src/app/components/navbar/navbar.component.spec.ts
+PASS src/app/pages/register/register.component.spec.ts
+  ÔùÅ Console
+
+    console.error
+      Register error: { error: 'Email already exists' }
+
+    [0m [90m 54 |[39m       }[33m,[39m
+     [90m 55 |[39m       error[33m:[39m (error[33m:[39m any) [33m=>[39m {
+    [31m[1m>[22m[39m[90m 56 |[39m         console[33m.[39merror([32m'Register error:'[39m[33m,[39m 
+error)[33m;[39m
+     [90m    |[39m                 [31m[1m^[22m[39m
+     [90m 57 |[39m         [36mthis[39m[33m.[39merrorMessage [33m=[39m error[33m.[39merror [33m||[39m 
+[32m'Erreur lors de l\'inscription'[39m[33m;[39m
+     [90m 58 |[39m         [36mthis[39m[33m.[39mloading [33m=[39m [36mfalse[39m[33m;[39m
+     [90m 59 |[39m       }[0m
+
+      at Object.error (src/app/pages/register/register.component.ts:56:17)
+      at ConsumerObserver.Object.<anonymous>.ConsumerObserver.error 
+(node_modules/rxjs/src/internal/Subscriber.ts:166:25)
+      at SafeSubscriber.Object.<anonymous>.Subscriber._error (node_modules/rxjs/src/internal/Subscriber.ts:118:24)
+      at SafeSubscriber.Object.<anonymous>.Subscriber.error (node_modules/rxjs/src/internal/Subscriber.ts:86:12)
+      at Observable.init [as _subscribe] (node_modules/rxjs/src/internal/observable/throwError.ts:123:62)
+      at Observable.Object.<anonymous>.Observable._trySubscribe 
+(node_modules/rxjs/src/internal/Observable.ts:235:19)
+      at node_modules/rxjs/src/internal/Observable.ts:225:18
+      at Object.errorContext (node_modules/rxjs/src/internal/util/errorContext.ts:29:5)
+      at Observable.Object.<anonymous>.Observable.subscribe (node_modules/rxjs/src/internal/Observable.ts:211:5)
+      at RegisterComponent.subscribe [as onSubmit] (src/app/pages/register/register.component.ts:50:41)
+      at src/app/pages/register/register.component.spec.ts:142:15
+      at fakeAsyncFn (node_modules/zone.js/bundles/zone-testing.umd.js:1794:30)
+      at _ZoneDelegate.invoke (node_modules/zone.js/bundles/zone.umd.js:410:32)
+      at ProxyZoneSpec.Object.<anonymous>.ProxyZoneSpec.onInvoke 
+(node_modules/zone.js/bundles/zone-testing.umd.js:2219:43)
+      at _ZoneDelegate.invoke (node_modules/zone.js/bundles/zone.umd.js:409:38)
+      at ZoneImpl.run (node_modules/zone.js/bundles/zone.umd.js:145:47)
+      at Object.wrappedFunc (node_modules/zone.js/bundles/zone-testing.umd.js:449:38)
+
+    console.error
+      Register error: {}
+
+    [0m [90m 54 |[39m       }[33m,[39m
+     [90m 55 |[39m       error[33m:[39m (error[33m:[39m any) [33m=>[39m {
+    [31m[1m>[22m[39m[90m 56 |[39m         console[33m.[39merror([32m'Register error:'[39m[33m,[39m 
+error)[33m;[39m
+     [90m    |[39m                 [31m[1m^[22m[39m
+     [90m 57 |[39m         [36mthis[39m[33m.[39merrorMessage [33m=[39m error[33m.[39merror [33m||[39m 
+[32m'Erreur lors de l\'inscription'[39m[33m;[39m
+     [90m 58 |[39m         [36mthis[39m[33m.[39mloading [33m=[39m [36mfalse[39m[33m;[39m
+     [90m 59 |[39m       }[0m
+
+      at Object.error (src/app/pages/register/register.component.ts:56:17)
+      at ConsumerObserver.Object.<anonymous>.ConsumerObserver.error 
+(node_modules/rxjs/src/internal/Subscriber.ts:166:25)
+      at SafeSubscriber.Object.<anonymous>.Subscriber._error (node_modules/rxjs/src/internal/Subscriber.ts:118:24)
+      at SafeSubscriber.Object.<anonymous>.Subscriber.error (node_modules/rxjs/src/internal/Subscriber.ts:86:12)
+      at Observable.init [as _subscribe] (node_modules/rxjs/src/internal/observable/throwError.ts:123:62)
+      at Observable.Object.<anonymous>.Observable._trySubscribe 
+(node_modules/rxjs/src/internal/Observable.ts:235:19)
+      at node_modules/rxjs/src/internal/Observable.ts:225:18
+      at Object.errorContext (node_modules/rxjs/src/internal/util/errorContext.ts:29:5)
+      at Observable.Object.<anonymous>.Observable.subscribe (node_modules/rxjs/src/internal/Observable.ts:211:5)
+      at RegisterComponent.subscribe [as onSubmit] (src/app/pages/register/register.component.ts:50:41)
+      at src/app/pages/register/register.component.spec.ts:159:15
+      at fakeAsyncFn (node_modules/zone.js/bundles/zone-testing.umd.js:1794:30)
+      at _ZoneDelegate.invoke (node_modules/zone.js/bundles/zone.umd.js:410:32)
+      at ProxyZoneSpec.Object.<anonymous>.ProxyZoneSpec.onInvoke 
+(node_modules/zone.js/bundles/zone-testing.umd.js:2219:43)
+      at _ZoneDelegate.invoke (node_modules/zone.js/bundles/zone.umd.js:409:38)
+      at ZoneImpl.run (node_modules/zone.js/bundles/zone.umd.js:145:47)
+      at Object.wrappedFunc (node_modules/zone.js/bundles/zone-testing.umd.js:449:38)
+
+PASS src/app/pages/students/student-list/student-list.component.spec.ts
+  ÔùÅ Console
+
+    console.error
+      Error: Could not parse CSS stylesheet
+          at exports.createStylesheet (C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\jsdom\
+lib\jsdom\living\helpers\stylesheets.js:34:21)
+          at HTMLStyleElementImpl._updateAStyleBlock (C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node
+_modules\jsdom\lib\jsdom\living\nodes\HTMLStyleElement-impl.js:68:5)
+          at HTMLStyleElementImpl._attach (C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\js
+dom\lib\jsdom\living\nodes\HTMLStyleElement-impl.js:19:12)
+          at HTMLHeadElementImpl._insert (C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\jsd
+om\lib\jsdom\living\nodes\Node-impl.js:835:14)
+          at HTMLHeadElementImpl._preInsert (C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\
+jsdom\lib\jsdom\living\nodes\Node-impl.js:756:10)
+          at HTMLHeadElementImpl._append (C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\jsd
+om\lib\jsdom\living\nodes\Node-impl.js:862:17)
+          at HTMLHeadElementImpl.appendChild (C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules
+\jsdom\lib\jsdom\living\nodes\Node-impl.js:598:17)
+          at HTMLHeadElement.appendChild (C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\jsd
+om\lib\jsdom\living\generated\Node.js:411:60)
+          at _SharedStylesHost.addElement (C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\@a
+ngular\platform-browser\fesm2022\dom_renderer-DGKzginR.mjs:278:21)
+          at C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\@angular\platform-browser\fesm20
+22\dom_renderer-DGKzginR.mjs:226:62
+          at Array.map (<anonymous>)
+          at _SharedStylesHost.addUsage (C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\@ang
+ular\platform-browser\fesm2022\dom_renderer-DGKzginR.mjs:226:43)
+          at _SharedStylesHost.addStyles (C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\@an
+gular\platform-browser\fesm2022\dom_renderer-DGKzginR.mjs:196:18)
+          at NoneEncapsulationDomRenderer.applyStyles (C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\nod
+e_modules\@angular\platform-browser\fesm2022\dom_renderer-DGKzginR.mjs:753:31)
+          at _DomRendererFactory2.createRenderer (C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_mod
+ules\@angular\platform-browser\fesm2022\dom_renderer-DGKzginR.mjs:418:22)
+          at createComponentLView 
+(C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\@angular\core\fesm2022\core.mjs:12237:160)
+          at instantiateAllDirectives 
+(C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\@angular\core\fesm2022\core.mjs:12645:9)
+          at createDirectivesInstances 
+(C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\@angular\core\fesm2022\core.mjs:12443:5)
+          at ComponentFactory2.create 
+(C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\@angular\core\fesm2022\core.mjs:18044:17)
+          at createComponent 
+(C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\@angular\core\fesm2022\core.mjs:40526:20)
+          at __CdkPrivateStyleLoader.load (C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\@a
+ngular\cdk\fesm2022\style-loader-Cu9AvjH9.mjs:35:28)
+          at _Overlay.create (C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\@angular\cdk\fe
+sm2022\overlay-module-BUj0D19H.mjs:2516:27)
+          at _MatSnackBar._createOverlay (C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\@an
+gular\material\fesm2022\snack-bar.mjs:745:30)
+          at _MatSnackBar._attach (C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\@angular\m
+aterial\fesm2022\snack-bar.mjs:649:33)
+          at _MatSnackBar.openFromComponent (C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\
+@angular\material\fesm2022\snack-bar.mjs:586:21)
+          at _MatSnackBar.open (C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\@angular\mate
+rial\fesm2022\snack-bar.mjs:614:21)
+          at Object.open (C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\src\app\pages\students\student-l
+ist\student-list.component.ts:68:25)
+          at ConsumerObserver.Object.<anonymous>.ConsumerObserver.next 
+(C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\rxjs\src\internal\Subscriber.ts:155:25)
+          at SafeSubscriber.Object.<anonymous>.Subscriber._next 
+(C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\rxjs\src\internal\Subscriber.ts:113:22)
+          at SafeSubscriber.Object.<anonymous>.Subscriber.next 
+(C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\rxjs\src\internal\Subscriber.ts:71:12)
+          at Observable._subscribe (C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\rxjs\src\
+internal\observable\innerFrom.ts:78:18)
+          at Observable.Object.<anonymous>.Observable._trySubscribe 
+(C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\rxjs\src\internal\Observable.ts:235:19)
+          at 
+C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\rxjs\src\internal\Observable.ts:225:18
+          at Object.errorContext 
+(C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\rxjs\src\internal\util\errorContext.ts:29:5)
+          at Observable.Object.<anonymous>.Observable.subscribe 
+(C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\rxjs\src\internal\Observable.ts:211:5)
+          at StudentListComponent.subscribe [as deleteStudent] (C:\Users\the_m\Documents\formation_OC\Projet2\Fron
+t-end\src\app\pages\students\student-list\student-list.component.ts:66:38)
+          at C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\src\app\pages\students\student-list\student-l
+ist.component.spec.ts:103:15
+          at _ZoneDelegate.invoke 
+(C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\zone.js\bundles\zone.umd.js:410:32)
+          at ProxyZoneSpec.Object.<anonymous>.ProxyZoneSpec.onInvoke 
+(C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\zone.js\bundles\zone-testing.umd.js:2219:43)
+          at _ZoneDelegate.invoke 
+(C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\zone.js\bundles\zone.umd.js:409:38)
+          at ZoneImpl.run 
+(C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\zone.js\bundles\zone.umd.js:145:47)
+          at Object.wrappedFunc 
+(C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\zone.js\bundles\zone-testing.umd.js:449:38)
+          at Promise.then.completed 
+(C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\jest-circus\build\utils.js:298:28)
+          at new Promise (<anonymous>)
+          at callAsyncCircusFn 
+(C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\jest-circus\build\utils.js:231:10)
+          at _callCircusTest 
+(C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\jest-circus\build\run.js:316:40)
+          at processTicksAndRejections (node:internal/process/task_queues:103:5)
+          at _runTest 
+(C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\jest-circus\build\run.js:252:3)
+          at _runTestsForDescribeBlock 
+(C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\jest-circus\build\run.js:126:9)
+          at _runTestsForDescribeBlock 
+(C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\jest-circus\build\run.js:121:9)
+          at run 
+(C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\jest-circus\build\run.js:71:3)
+          at runAndTransformResultsToJestFormat (C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modu
+les\jest-circus\build\legacy-code-todo-rewrite\jestAdapterInit.js:122:21) {
+        detail: '.cdk-overlay-container,.cdk-global-overlay-wrapper{pointer-events:none;top:0;left:0;height:100%;w
+idth:100%}.cdk-overlay-container{position:fixed}@layer cdk-overlay{.cdk-overlay-container{z-index:1000}}.cdk-overl
+ay-container:empty{display:none}.cdk-global-overlay-wrapper{display:flex;position:absolute}@layer cdk-overlay{.cdk
+-global-overlay-wrapper{z-index:1000}}.cdk-overlay-pane{position:absolute;pointer-events:auto;box-sizing:border-bo
+x;display:flex;max-width:100%;max-height:100%}@layer cdk-overlay{.cdk-overlay-pane{z-index:1000}}.cdk-overlay-back
+drop{position:absolute;top:0;bottom:0;left:0;right:0;pointer-events:auto;-webkit-tap-highlight-color:rgba(0,0,0,0)
+;opacity:0;touch-action:manipulation}@layer cdk-overlay{.cdk-overlay-backdrop{z-index:1000;transition:opacity 
+400ms cubic-bezier(0.25, 0.8, 0.25, 1)}}@media(prefers-reduced-motion){.cdk-overlay-backdrop{transition-duration:1
+ms}}.cdk-overlay-backdrop-showing{opacity:1}@media(forced-colors: 
+active){.cdk-overlay-backdrop-showing{opacity:.6}}@layer cdk-overlay{.cdk-overlay-dark-backdrop{background:rgba(0,
+0,0,.32)}}.cdk-overlay-transparent-backdrop{transition:visibility 1ms linear,opacity 1ms linear;visibility:hidden;
+opacity:1}.cdk-overlay-transparent-backdrop.cdk-overlay-backdrop-showing,.cdk-high-contrast-active .cdk-overlay-tr
+ansparent-backdrop{opacity:0;visibility:visible}.cdk-overlay-backdrop-noop-animation{transition:none}.cdk-overlay-
+connected-position-bounding-box{position:absolute;display:flex;flex-direction:column;min-width:1px;min-height:1px}
+@layer cdk-overlay{.cdk-overlay-connected-position-bounding-box{z-index:1000}}.cdk-global-scrollblock{position:fix
+ed;width:100%;overflow-y:scroll}\n',
+        type: 'css parsing'
+      }
+
+    [0m [90m 66 |[39m       
+[36mthis[39m[33m.[39mstudentService[33m.[39m[36mdelete[39m(id)[33m.[39msubscribe({
+     [90m 67 |[39m         next[33m:[39m () [33m=>[39m {
+    [31m[1m>[22m[39m[90m 68 |[39m           
+[36mthis[39m[33m.[39msnackBar[33m.[39mopen([32m'├ëtudiant supprim├® avec succ├¿s'[39m[33m,[39m 
+[32m'Fermer'[39m[33m,[39m {
+     [90m    |[39m                         [31m[1m^[22m[39m
+     [90m 69 |[39m             duration[33m:[39m [35m3000[39m
+     [90m 70 |[39m           })[33m;[39m
+     [90m 71 |[39m           [36mthis[39m[33m.[39mloadStudents()[33m;[39m[0m
+
+      at VirtualConsole.<anonymous> (node_modules/jest-environment-jsdom/build/index.js:63:23)
+      at exports.createStylesheet (node_modules/jsdom/lib/jsdom/living/helpers/stylesheets.js:38:63)
+      at HTMLStyleElementImpl._updateAStyleBlock 
+(node_modules/jsdom/lib/jsdom/living/nodes/HTMLStyleElement-impl.js:68:5)
+      at HTMLStyleElementImpl._attach (node_modules/jsdom/lib/jsdom/living/nodes/HTMLStyleElement-impl.js:19:12)
+      at HTMLHeadElementImpl._insert (node_modules/jsdom/lib/jsdom/living/nodes/Node-impl.js:835:14)
+      at HTMLHeadElementImpl._preInsert (node_modules/jsdom/lib/jsdom/living/nodes/Node-impl.js:756:10)
+      at HTMLHeadElementImpl._append (node_modules/jsdom/lib/jsdom/living/nodes/Node-impl.js:862:17)
+      at HTMLHeadElementImpl.appendChild (node_modules/jsdom/lib/jsdom/living/nodes/Node-impl.js:598:17)
+      at HTMLHeadElement.appendChild (node_modules/jsdom/lib/jsdom/living/generated/Node.js:411:60)
+      at _SharedStylesHost.addElement 
+(node_modules/@angular/platform-browser/fesm2022/dom_renderer-DGKzginR.mjs:278:21)
+      at node_modules/@angular/platform-browser/fesm2022/dom_renderer-DGKzginR.mjs:226:62
+          at Array.map (<anonymous>)
+      at _SharedStylesHost.addUsage 
+(node_modules/@angular/platform-browser/fesm2022/dom_renderer-DGKzginR.mjs:226:43)
+      at _SharedStylesHost.addStyles 
+(node_modules/@angular/platform-browser/fesm2022/dom_renderer-DGKzginR.mjs:196:18)
+      at NoneEncapsulationDomRenderer.applyStyles 
+(node_modules/@angular/platform-browser/fesm2022/dom_renderer-DGKzginR.mjs:753:31)
+      at _DomRendererFactory2.createRenderer 
+(node_modules/@angular/platform-browser/fesm2022/dom_renderer-DGKzginR.mjs:418:22)
+      at createComponentLView (node_modules/@angular/core/fesm2022/core.mjs:12237:160)
+      at instantiateAllDirectives (node_modules/@angular/core/fesm2022/core.mjs:12645:9)
+      at createDirectivesInstances (node_modules/@angular/core/fesm2022/core.mjs:12443:5)
+      at ComponentFactory2.create (node_modules/@angular/core/fesm2022/core.mjs:18044:17)
+      at createComponent (node_modules/@angular/core/fesm2022/core.mjs:40526:20)
+      at __CdkPrivateStyleLoader.load (node_modules/@angular/cdk/fesm2022/style-loader-Cu9AvjH9.mjs:35:28)
+      at _Overlay.create (node_modules/@angular/cdk/fesm2022/overlay-module-BUj0D19H.mjs:2516:27)
+      at _MatSnackBar._createOverlay (node_modules/@angular/material/fesm2022/snack-bar.mjs:745:30)
+      at _MatSnackBar._attach (node_modules/@angular/material/fesm2022/snack-bar.mjs:649:33)
+      at _MatSnackBar.openFromComponent (node_modules/@angular/material/fesm2022/snack-bar.mjs:586:21)
+      at _MatSnackBar.open (node_modules/@angular/material/fesm2022/snack-bar.mjs:614:21)
+      at Object.open (src/app/pages/students/student-list/student-list.component.ts:68:25)
+      at ConsumerObserver.Object.<anonymous>.ConsumerObserver.next 
+(node_modules/rxjs/src/internal/Subscriber.ts:155:25)
+      at SafeSubscriber.Object.<anonymous>.Subscriber._next (node_modules/rxjs/src/internal/Subscriber.ts:113:22)
+      at SafeSubscriber.Object.<anonymous>.Subscriber.next (node_modules/rxjs/src/internal/Subscriber.ts:71:12)
+      at Observable._subscribe (node_modules/rxjs/src/internal/observable/innerFrom.ts:78:18)
+      at Observable.Object.<anonymous>.Observable._trySubscribe 
+(node_modules/rxjs/src/internal/Observable.ts:235:19)
+      at node_modules/rxjs/src/internal/Observable.ts:225:18
+      at Object.errorContext (node_modules/rxjs/src/internal/util/errorContext.ts:29:5)
+      at Observable.Object.<anonymous>.Observable.subscribe (node_modules/rxjs/src/internal/Observable.ts:211:5)
+      at StudentListComponent.subscribe [as deleteStudent] 
+(src/app/pages/students/student-list/student-list.component.ts:66:38)
+      at src/app/pages/students/student-list/student-list.component.spec.ts:103:15
+      at _ZoneDelegate.invoke (node_modules/zone.js/bundles/zone.umd.js:410:32)
+      at ProxyZoneSpec.Object.<anonymous>.ProxyZoneSpec.onInvoke 
+(node_modules/zone.js/bundles/zone-testing.umd.js:2219:43)
+      at _ZoneDelegate.invoke (node_modules/zone.js/bundles/zone.umd.js:409:38)
+      at ZoneImpl.run (node_modules/zone.js/bundles/zone.umd.js:145:47)
+      at Object.wrappedFunc (node_modules/zone.js/bundles/zone-testing.umd.js:449:38)
+
+PASS src/app/pages/students/student-form/student-form.component.spec.ts
+  ÔùÅ Console
+
+    console.error
+      Error: Could not parse CSS stylesheet
+          at exports.createStylesheet (C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\jsdom\
+lib\jsdom\living\helpers\stylesheets.js:34:21)
+          at HTMLStyleElementImpl._updateAStyleBlock (C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node
+_modules\jsdom\lib\jsdom\living\nodes\HTMLStyleElement-impl.js:68:5)
+          at HTMLStyleElementImpl._attach (C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\js
+dom\lib\jsdom\living\nodes\HTMLStyleElement-impl.js:19:12)
+          at HTMLHeadElementImpl._insert (C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\jsd
+om\lib\jsdom\living\nodes\Node-impl.js:835:14)
+          at HTMLHeadElementImpl._preInsert (C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\
+jsdom\lib\jsdom\living\nodes\Node-impl.js:756:10)
+          at HTMLHeadElementImpl._append (C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\jsd
+om\lib\jsdom\living\nodes\Node-impl.js:862:17)
+          at HTMLHeadElementImpl.appendChild (C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules
+\jsdom\lib\jsdom\living\nodes\Node-impl.js:598:17)
+          at HTMLHeadElement.appendChild (C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\jsd
+om\lib\jsdom\living\generated\Node.js:411:60)
+          at _SharedStylesHost.addElement (C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\@a
+ngular\platform-browser\fesm2022\dom_renderer-DGKzginR.mjs:278:21)
+          at C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\@angular\platform-browser\fesm20
+22\dom_renderer-DGKzginR.mjs:226:62
+          at Array.map (<anonymous>)
+          at _SharedStylesHost.addUsage (C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\@ang
+ular\platform-browser\fesm2022\dom_renderer-DGKzginR.mjs:226:43)
+          at _SharedStylesHost.addStyles (C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\@an
+gular\platform-browser\fesm2022\dom_renderer-DGKzginR.mjs:196:18)
+          at NoneEncapsulationDomRenderer.applyStyles (C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\nod
+e_modules\@angular\platform-browser\fesm2022\dom_renderer-DGKzginR.mjs:753:31)
+          at _DomRendererFactory2.createRenderer (C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_mod
+ules\@angular\platform-browser\fesm2022\dom_renderer-DGKzginR.mjs:418:22)
+          at createComponentLView 
+(C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\@angular\core\fesm2022\core.mjs:12237:160)
+          at instantiateAllDirectives 
+(C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\@angular\core\fesm2022\core.mjs:12645:9)
+          at createDirectivesInstances 
+(C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\@angular\core\fesm2022\core.mjs:12443:5)
+          at ComponentFactory2.create 
+(C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\@angular\core\fesm2022\core.mjs:18044:17)
+          at createComponent 
+(C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\@angular\core\fesm2022\core.mjs:40526:20)
+          at __CdkPrivateStyleLoader.load (C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\@a
+ngular\cdk\fesm2022\style-loader-Cu9AvjH9.mjs:35:28)
+          at _Overlay.create (C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\@angular\cdk\fe
+sm2022\overlay-module-BUj0D19H.mjs:2516:27)
+          at _MatSnackBar._createOverlay (C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\@an
+gular\material\fesm2022\snack-bar.mjs:745:30)
+          at _MatSnackBar._attach (C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\@angular\m
+aterial\fesm2022\snack-bar.mjs:649:33)
+          at _MatSnackBar.openFromComponent (C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\
+@angular\material\fesm2022\snack-bar.mjs:586:21)
+          at _MatSnackBar.open (C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\@angular\mate
+rial\fesm2022\snack-bar.mjs:614:21)
+          at Object.open (C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\src\app\pages\students\student-f
+orm\student-form.component.ts:109:23)
+          at ConsumerObserver.Object.<anonymous>.ConsumerObserver.next 
+(C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\rxjs\src\internal\Subscriber.ts:155:25)
+          at SafeSubscriber.Object.<anonymous>.Subscriber._next 
+(C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\rxjs\src\internal\Subscriber.ts:113:22)
+          at SafeSubscriber.Object.<anonymous>.Subscriber.next 
+(C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\rxjs\src\internal\Subscriber.ts:71:12)
+          at Observable._subscribe (C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\rxjs\src\
+internal\observable\innerFrom.ts:78:18)
+          at Observable.Object.<anonymous>.Observable._trySubscribe 
+(C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\rxjs\src\internal\Observable.ts:235:19)
+          at 
+C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\rxjs\src\internal\Observable.ts:225:18
+          at Object.errorContext 
+(C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\rxjs\src\internal\util\errorContext.ts:29:5)
+          at Observable.Object.<anonymous>.Observable.subscribe 
+(C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\rxjs\src\internal\Observable.ts:211:5)
+          at StudentFormComponent.subscribe [as createStudent] (C:\Users\the_m\Documents\formation_OC\Projet2\Fron
+t-end\src\app\pages\students\student-form\student-form.component.ts:107:41)
+          at StudentFormComponent.createStudent [as onSubmit] (C:\Users\the_m\Documents\formation_OC\Projet2\Front
+-end\src\app\pages\students\student-form\student-form.component.ts:101:14)
+          at C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\src\app\pages\students\student-form\student-f
+orm.component.spec.ts:123:17
+          at fakeAsyncFn 
+(C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\zone.js\bundles\zone-testing.umd.js:1794:30)
+          at _ZoneDelegate.invoke 
+(C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\zone.js\bundles\zone.umd.js:410:32)
+          at ProxyZoneSpec.Object.<anonymous>.ProxyZoneSpec.onInvoke 
+(C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\zone.js\bundles\zone-testing.umd.js:2219:43)
+          at _ZoneDelegate.invoke 
+(C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\zone.js\bundles\zone.umd.js:409:38)
+          at ZoneImpl.run 
+(C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\zone.js\bundles\zone.umd.js:145:47)
+          at Object.wrappedFunc 
+(C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\zone.js\bundles\zone-testing.umd.js:449:38)
+          at Promise.then.completed 
+(C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\jest-circus\build\utils.js:298:28)
+          at new Promise (<anonymous>)
+          at callAsyncCircusFn 
+(C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\jest-circus\build\utils.js:231:10)
+          at _callCircusTest 
+(C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\jest-circus\build\run.js:316:40)
+          at processTicksAndRejections (node:internal/process/task_queues:103:5)
+          at _runTest 
+(C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\jest-circus\build\run.js:252:3)
+          at _runTestsForDescribeBlock 
+(C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\jest-circus\build\run.js:126:9)
+          at _runTestsForDescribeBlock 
+(C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\jest-circus\build\run.js:121:9)
+          at _runTestsForDescribeBlock 
+(C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\jest-circus\build\run.js:121:9)
+          at run 
+(C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\jest-circus\build\run.js:71:3)
+          at runAndTransformResultsToJestFormat (C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modu
+les\jest-circus\build\legacy-code-todo-rewrite\jestAdapterInit.js:122:21) {
+        detail: '.cdk-overlay-container,.cdk-global-overlay-wrapper{pointer-events:none;top:0;left:0;height:100%;w
+idth:100%}.cdk-overlay-container{position:fixed}@layer cdk-overlay{.cdk-overlay-container{z-index:1000}}.cdk-overl
+ay-container:empty{display:none}.cdk-global-overlay-wrapper{display:flex;position:absolute}@layer cdk-overlay{.cdk
+-global-overlay-wrapper{z-index:1000}}.cdk-overlay-pane{position:absolute;pointer-events:auto;box-sizing:border-bo
+x;display:flex;max-width:100%;max-height:100%}@layer cdk-overlay{.cdk-overlay-pane{z-index:1000}}.cdk-overlay-back
+drop{position:absolute;top:0;bottom:0;left:0;right:0;pointer-events:auto;-webkit-tap-highlight-color:rgba(0,0,0,0)
+;opacity:0;touch-action:manipulation}@layer cdk-overlay{.cdk-overlay-backdrop{z-index:1000;transition:opacity 
+400ms cubic-bezier(0.25, 0.8, 0.25, 1)}}@media(prefers-reduced-motion){.cdk-overlay-backdrop{transition-duration:1
+ms}}.cdk-overlay-backdrop-showing{opacity:1}@media(forced-colors: 
+active){.cdk-overlay-backdrop-showing{opacity:.6}}@layer cdk-overlay{.cdk-overlay-dark-backdrop{background:rgba(0,
+0,0,.32)}}.cdk-overlay-transparent-backdrop{transition:visibility 1ms linear,opacity 1ms linear;visibility:hidden;
+opacity:1}.cdk-overlay-transparent-backdrop.cdk-overlay-backdrop-showing,.cdk-high-contrast-active .cdk-overlay-tr
+ansparent-backdrop{opacity:0;visibility:visible}.cdk-overlay-backdrop-noop-animation{transition:none}.cdk-overlay-
+connected-position-bounding-box{position:absolute;display:flex;flex-direction:column;min-width:1px;min-height:1px}
+@layer cdk-overlay{.cdk-overlay-connected-position-bounding-box{z-index:1000}}.cdk-global-scrollblock{position:fix
+ed;width:100%;overflow-y:scroll}\n',
+        type: 'css parsing'
+      }
+
+    [0m [90m 107 |[39m     
+[36mthis[39m[33m.[39mstudentService[33m.[39mcreate(student)[33m.[39msubscribe({
+     [90m 108 |[39m       next[33m:[39m () [33m=>[39m {
+    [31m[1m>[22m[39m[90m 109 |[39m         [36mthis[39m[33m.[39msnackBar[33m.[39mopen([32m'├ëtudiant 
+cr├®├® avec succ├¿s'[39m[33m,[39m [32m'Fermer'[39m[33m,[39m {
+     [90m     |[39m                       [31m[1m^[22m[39m
+     [90m 110 |[39m           duration[33m:[39m [35m3000[39m
+     [90m 111 |[39m         })[33m;[39m
+     [90m 112 |[39m         
+[36mthis[39m[33m.[39mrouter[33m.[39mnavigate([[32m'/students'[39m])[33m;[39m[0m
+
+      at VirtualConsole.<anonymous> (node_modules/jest-environment-jsdom/build/index.js:63:23)
+      at exports.createStylesheet (node_modules/jsdom/lib/jsdom/living/helpers/stylesheets.js:38:63)
+      at HTMLStyleElementImpl._updateAStyleBlock 
+(node_modules/jsdom/lib/jsdom/living/nodes/HTMLStyleElement-impl.js:68:5)
+      at HTMLStyleElementImpl._attach (node_modules/jsdom/lib/jsdom/living/nodes/HTMLStyleElement-impl.js:19:12)
+      at HTMLHeadElementImpl._insert (node_modules/jsdom/lib/jsdom/living/nodes/Node-impl.js:835:14)
+      at HTMLHeadElementImpl._preInsert (node_modules/jsdom/lib/jsdom/living/nodes/Node-impl.js:756:10)
+      at HTMLHeadElementImpl._append (node_modules/jsdom/lib/jsdom/living/nodes/Node-impl.js:862:17)
+      at HTMLHeadElementImpl.appendChild (node_modules/jsdom/lib/jsdom/living/nodes/Node-impl.js:598:17)
+      at HTMLHeadElement.appendChild (node_modules/jsdom/lib/jsdom/living/generated/Node.js:411:60)
+      at _SharedStylesHost.addElement 
+(node_modules/@angular/platform-browser/fesm2022/dom_renderer-DGKzginR.mjs:278:21)
+      at node_modules/@angular/platform-browser/fesm2022/dom_renderer-DGKzginR.mjs:226:62
+          at Array.map (<anonymous>)
+      at _SharedStylesHost.addUsage 
+(node_modules/@angular/platform-browser/fesm2022/dom_renderer-DGKzginR.mjs:226:43)
+      at _SharedStylesHost.addStyles 
+(node_modules/@angular/platform-browser/fesm2022/dom_renderer-DGKzginR.mjs:196:18)
+      at NoneEncapsulationDomRenderer.applyStyles 
+(node_modules/@angular/platform-browser/fesm2022/dom_renderer-DGKzginR.mjs:753:31)
+      at _DomRendererFactory2.createRenderer 
+(node_modules/@angular/platform-browser/fesm2022/dom_renderer-DGKzginR.mjs:418:22)
+      at createComponentLView (node_modules/@angular/core/fesm2022/core.mjs:12237:160)
+      at instantiateAllDirectives (node_modules/@angular/core/fesm2022/core.mjs:12645:9)
+      at createDirectivesInstances (node_modules/@angular/core/fesm2022/core.mjs:12443:5)
+      at ComponentFactory2.create (node_modules/@angular/core/fesm2022/core.mjs:18044:17)
+      at createComponent (node_modules/@angular/core/fesm2022/core.mjs:40526:20)
+      at __CdkPrivateStyleLoader.load (node_modules/@angular/cdk/fesm2022/style-loader-Cu9AvjH9.mjs:35:28)
+      at _Overlay.create (node_modules/@angular/cdk/fesm2022/overlay-module-BUj0D19H.mjs:2516:27)
+      at _MatSnackBar._createOverlay (node_modules/@angular/material/fesm2022/snack-bar.mjs:745:30)
+      at _MatSnackBar._attach (node_modules/@angular/material/fesm2022/snack-bar.mjs:649:33)
+      at _MatSnackBar.openFromComponent (node_modules/@angular/material/fesm2022/snack-bar.mjs:586:21)
+      at _MatSnackBar.open (node_modules/@angular/material/fesm2022/snack-bar.mjs:614:21)
+      at Object.open (src/app/pages/students/student-form/student-form.component.ts:109:23)
+      at ConsumerObserver.Object.<anonymous>.ConsumerObserver.next 
+(node_modules/rxjs/src/internal/Subscriber.ts:155:25)
+      at SafeSubscriber.Object.<anonymous>.Subscriber._next (node_modules/rxjs/src/internal/Subscriber.ts:113:22)
+      at SafeSubscriber.Object.<anonymous>.Subscriber.next (node_modules/rxjs/src/internal/Subscriber.ts:71:12)
+      at Observable._subscribe (node_modules/rxjs/src/internal/observable/innerFrom.ts:78:18)
+      at Observable.Object.<anonymous>.Observable._trySubscribe 
+(node_modules/rxjs/src/internal/Observable.ts:235:19)
+      at node_modules/rxjs/src/internal/Observable.ts:225:18
+      at Object.errorContext (node_modules/rxjs/src/internal/util/errorContext.ts:29:5)
+      at Observable.Object.<anonymous>.Observable.subscribe (node_modules/rxjs/src/internal/Observable.ts:211:5)
+      at StudentFormComponent.subscribe [as createStudent] 
+(src/app/pages/students/student-form/student-form.component.ts:107:41)
+      at StudentFormComponent.createStudent [as onSubmit] 
+(src/app/pages/students/student-form/student-form.component.ts:101:14)
+      at src/app/pages/students/student-form/student-form.component.spec.ts:123:17
+      at fakeAsyncFn (node_modules/zone.js/bundles/zone-testing.umd.js:1794:30)
+      at _ZoneDelegate.invoke (node_modules/zone.js/bundles/zone.umd.js:410:32)
+      at ProxyZoneSpec.Object.<anonymous>.ProxyZoneSpec.onInvoke 
+(node_modules/zone.js/bundles/zone-testing.umd.js:2219:43)
+      at _ZoneDelegate.invoke (node_modules/zone.js/bundles/zone.umd.js:409:38)
+      at ZoneImpl.run (node_modules/zone.js/bundles/zone.umd.js:145:47)
+      at Object.wrappedFunc (node_modules/zone.js/bundles/zone-testing.umd.js:449:38)
+
+    console.error
+      Error: Could not parse CSS stylesheet
+          at exports.createStylesheet (C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\jsdom\
+lib\jsdom\living\helpers\stylesheets.js:34:21)
+          at HTMLStyleElementImpl._updateAStyleBlock (C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node
+_modules\jsdom\lib\jsdom\living\nodes\HTMLStyleElement-impl.js:68:5)
+          at HTMLStyleElementImpl._attach (C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\js
+dom\lib\jsdom\living\nodes\HTMLStyleElement-impl.js:19:12)
+          at HTMLHeadElementImpl._insert (C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\jsd
+om\lib\jsdom\living\nodes\Node-impl.js:835:14)
+          at HTMLHeadElementImpl._preInsert (C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\
+jsdom\lib\jsdom\living\nodes\Node-impl.js:756:10)
+          at HTMLHeadElementImpl._append (C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\jsd
+om\lib\jsdom\living\nodes\Node-impl.js:862:17)
+          at HTMLHeadElementImpl.appendChild (C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules
+\jsdom\lib\jsdom\living\nodes\Node-impl.js:598:17)
+          at HTMLHeadElement.appendChild (C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\jsd
+om\lib\jsdom\living\generated\Node.js:411:60)
+          at _SharedStylesHost.addElement (C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\@a
+ngular\platform-browser\fesm2022\dom_renderer-DGKzginR.mjs:278:21)
+          at C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\@angular\platform-browser\fesm20
+22\dom_renderer-DGKzginR.mjs:226:62
+          at Array.map (<anonymous>)
+          at _SharedStylesHost.addUsage (C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\@ang
+ular\platform-browser\fesm2022\dom_renderer-DGKzginR.mjs:226:43)
+          at _SharedStylesHost.addStyles (C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\@an
+gular\platform-browser\fesm2022\dom_renderer-DGKzginR.mjs:196:18)
+          at NoneEncapsulationDomRenderer.applyStyles (C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\nod
+e_modules\@angular\platform-browser\fesm2022\dom_renderer-DGKzginR.mjs:753:31)
+          at _DomRendererFactory2.createRenderer (C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_mod
+ules\@angular\platform-browser\fesm2022\dom_renderer-DGKzginR.mjs:418:22)
+          at createComponentLView 
+(C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\@angular\core\fesm2022\core.mjs:12237:160)
+          at instantiateAllDirectives 
+(C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\@angular\core\fesm2022\core.mjs:12645:9)
+          at createDirectivesInstances 
+(C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\@angular\core\fesm2022\core.mjs:12443:5)
+          at ComponentFactory2.create 
+(C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\@angular\core\fesm2022\core.mjs:18044:17)
+          at createComponent 
+(C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\@angular\core\fesm2022\core.mjs:40526:20)
+          at __CdkPrivateStyleLoader.load (C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\@a
+ngular\cdk\fesm2022\style-loader-Cu9AvjH9.mjs:35:28)
+          at _Overlay.create (C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\@angular\cdk\fe
+sm2022\overlay-module-BUj0D19H.mjs:2516:27)
+          at _MatSnackBar._createOverlay (C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\@an
+gular\material\fesm2022\snack-bar.mjs:745:30)
+          at _MatSnackBar._attach (C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\@angular\m
+aterial\fesm2022\snack-bar.mjs:649:33)
+          at _MatSnackBar.openFromComponent (C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\
+@angular\material\fesm2022\snack-bar.mjs:586:21)
+          at _MatSnackBar.open (C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\@angular\mate
+rial\fesm2022\snack-bar.mjs:614:21)
+          at Object.open (C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\src\app\pages\students\student-f
+orm\student-form.component.ts:109:23)
+          at ConsumerObserver.Object.<anonymous>.ConsumerObserver.next 
+(C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\rxjs\src\internal\Subscriber.ts:155:25)
+          at SafeSubscriber.Object.<anonymous>.Subscriber._next 
+(C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\rxjs\src\internal\Subscriber.ts:113:22)
+          at SafeSubscriber.Object.<anonymous>.Subscriber.next 
+(C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\rxjs\src\internal\Subscriber.ts:71:12)
+          at Observable._subscribe (C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\rxjs\src\
+internal\observable\innerFrom.ts:78:18)
+          at Observable.Object.<anonymous>.Observable._trySubscribe 
+(C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\rxjs\src\internal\Observable.ts:235:19)
+          at 
+C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\rxjs\src\internal\Observable.ts:225:18
+          at Object.errorContext 
+(C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\rxjs\src\internal\util\errorContext.ts:29:5)
+          at Observable.Object.<anonymous>.Observable.subscribe 
+(C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\rxjs\src\internal\Observable.ts:211:5)
+          at StudentFormComponent.subscribe [as createStudent] (C:\Users\the_m\Documents\formation_OC\Projet2\Fron
+t-end\src\app\pages\students\student-form\student-form.component.ts:107:41)
+          at StudentFormComponent.createStudent [as onSubmit] (C:\Users\the_m\Documents\formation_OC\Projet2\Front
+-end\src\app\pages\students\student-form\student-form.component.ts:101:14)
+          at C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\src\app\pages\students\student-form\student-f
+orm.component.spec.ts:138:17
+          at fakeAsyncFn 
+(C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\zone.js\bundles\zone-testing.umd.js:1794:30)
+          at _ZoneDelegate.invoke 
+(C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\zone.js\bundles\zone.umd.js:410:32)
+          at ProxyZoneSpec.Object.<anonymous>.ProxyZoneSpec.onInvoke 
+(C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\zone.js\bundles\zone-testing.umd.js:2219:43)
+          at _ZoneDelegate.invoke 
+(C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\zone.js\bundles\zone.umd.js:409:38)
+          at ZoneImpl.run 
+(C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\zone.js\bundles\zone.umd.js:145:47)
+          at Object.wrappedFunc 
+(C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\zone.js\bundles\zone-testing.umd.js:449:38)
+          at Promise.then.completed 
+(C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\jest-circus\build\utils.js:298:28)
+          at new Promise (<anonymous>)
+          at callAsyncCircusFn 
+(C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\jest-circus\build\utils.js:231:10)
+          at _callCircusTest 
+(C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\jest-circus\build\run.js:316:40)
+          at processTicksAndRejections (node:internal/process/task_queues:103:5)
+          at _runTest 
+(C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\jest-circus\build\run.js:252:3)
+          at _runTestsForDescribeBlock 
+(C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\jest-circus\build\run.js:126:9)
+          at _runTestsForDescribeBlock 
+(C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\jest-circus\build\run.js:121:9)
+          at _runTestsForDescribeBlock 
+(C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\jest-circus\build\run.js:121:9)
+          at run 
+(C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\jest-circus\build\run.js:71:3)
+          at runAndTransformResultsToJestFormat (C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modu
+les\jest-circus\build\legacy-code-todo-rewrite\jestAdapterInit.js:122:21) {
+        detail: '.cdk-overlay-container,.cdk-global-overlay-wrapper{pointer-events:none;top:0;left:0;height:100%;w
+idth:100%}.cdk-overlay-container{position:fixed}@layer cdk-overlay{.cdk-overlay-container{z-index:1000}}.cdk-overl
+ay-container:empty{display:none}.cdk-global-overlay-wrapper{display:flex;position:absolute}@layer cdk-overlay{.cdk
+-global-overlay-wrapper{z-index:1000}}.cdk-overlay-pane{position:absolute;pointer-events:auto;box-sizing:border-bo
+x;display:flex;max-width:100%;max-height:100%}@layer cdk-overlay{.cdk-overlay-pane{z-index:1000}}.cdk-overlay-back
+drop{position:absolute;top:0;bottom:0;left:0;right:0;pointer-events:auto;-webkit-tap-highlight-color:rgba(0,0,0,0)
+;opacity:0;touch-action:manipulation}@layer cdk-overlay{.cdk-overlay-backdrop{z-index:1000;transition:opacity 
+400ms cubic-bezier(0.25, 0.8, 0.25, 1)}}@media(prefers-reduced-motion){.cdk-overlay-backdrop{transition-duration:1
+ms}}.cdk-overlay-backdrop-showing{opacity:1}@media(forced-colors: 
+active){.cdk-overlay-backdrop-showing{opacity:.6}}@layer cdk-overlay{.cdk-overlay-dark-backdrop{background:rgba(0,
+0,0,.32)}}.cdk-overlay-transparent-backdrop{transition:visibility 1ms linear,opacity 1ms linear;visibility:hidden;
+opacity:1}.cdk-overlay-transparent-backdrop.cdk-overlay-backdrop-showing,.cdk-high-contrast-active .cdk-overlay-tr
+ansparent-backdrop{opacity:0;visibility:visible}.cdk-overlay-backdrop-noop-animation{transition:none}.cdk-overlay-
+connected-position-bounding-box{position:absolute;display:flex;flex-direction:column;min-width:1px;min-height:1px}
+@layer cdk-overlay{.cdk-overlay-connected-position-bounding-box{z-index:1000}}.cdk-global-scrollblock{position:fix
+ed;width:100%;overflow-y:scroll}\n',
+        type: 'css parsing'
+      }
+
+    [0m [90m 107 |[39m     
+[36mthis[39m[33m.[39mstudentService[33m.[39mcreate(student)[33m.[39msubscribe({
+     [90m 108 |[39m       next[33m:[39m () [33m=>[39m {
+    [31m[1m>[22m[39m[90m 109 |[39m         [36mthis[39m[33m.[39msnackBar[33m.[39mopen([32m'├ëtudiant 
+cr├®├® avec succ├¿s'[39m[33m,[39m [32m'Fermer'[39m[33m,[39m {
+     [90m     |[39m                       [31m[1m^[22m[39m
+     [90m 110 |[39m           duration[33m:[39m [35m3000[39m
+     [90m 111 |[39m         })[33m;[39m
+     [90m 112 |[39m         
+[36mthis[39m[33m.[39mrouter[33m.[39mnavigate([[32m'/students'[39m])[33m;[39m[0m
+
+      at VirtualConsole.<anonymous> (node_modules/jest-environment-jsdom/build/index.js:63:23)
+      at exports.createStylesheet (node_modules/jsdom/lib/jsdom/living/helpers/stylesheets.js:38:63)
+      at HTMLStyleElementImpl._updateAStyleBlock 
+(node_modules/jsdom/lib/jsdom/living/nodes/HTMLStyleElement-impl.js:68:5)
+      at HTMLStyleElementImpl._attach (node_modules/jsdom/lib/jsdom/living/nodes/HTMLStyleElement-impl.js:19:12)
+      at HTMLHeadElementImpl._insert (node_modules/jsdom/lib/jsdom/living/nodes/Node-impl.js:835:14)
+      at HTMLHeadElementImpl._preInsert (node_modules/jsdom/lib/jsdom/living/nodes/Node-impl.js:756:10)
+      at HTMLHeadElementImpl._append (node_modules/jsdom/lib/jsdom/living/nodes/Node-impl.js:862:17)
+      at HTMLHeadElementImpl.appendChild (node_modules/jsdom/lib/jsdom/living/nodes/Node-impl.js:598:17)
+      at HTMLHeadElement.appendChild (node_modules/jsdom/lib/jsdom/living/generated/Node.js:411:60)
+      at _SharedStylesHost.addElement 
+(node_modules/@angular/platform-browser/fesm2022/dom_renderer-DGKzginR.mjs:278:21)
+      at node_modules/@angular/platform-browser/fesm2022/dom_renderer-DGKzginR.mjs:226:62
+          at Array.map (<anonymous>)
+      at _SharedStylesHost.addUsage 
+(node_modules/@angular/platform-browser/fesm2022/dom_renderer-DGKzginR.mjs:226:43)
+      at _SharedStylesHost.addStyles 
+(node_modules/@angular/platform-browser/fesm2022/dom_renderer-DGKzginR.mjs:196:18)
+      at NoneEncapsulationDomRenderer.applyStyles 
+(node_modules/@angular/platform-browser/fesm2022/dom_renderer-DGKzginR.mjs:753:31)
+      at _DomRendererFactory2.createRenderer 
+(node_modules/@angular/platform-browser/fesm2022/dom_renderer-DGKzginR.mjs:418:22)
+      at createComponentLView (node_modules/@angular/core/fesm2022/core.mjs:12237:160)
+      at instantiateAllDirectives (node_modules/@angular/core/fesm2022/core.mjs:12645:9)
+      at createDirectivesInstances (node_modules/@angular/core/fesm2022/core.mjs:12443:5)
+      at ComponentFactory2.create (node_modules/@angular/core/fesm2022/core.mjs:18044:17)
+      at createComponent (node_modules/@angular/core/fesm2022/core.mjs:40526:20)
+      at __CdkPrivateStyleLoader.load (node_modules/@angular/cdk/fesm2022/style-loader-Cu9AvjH9.mjs:35:28)
+      at _Overlay.create (node_modules/@angular/cdk/fesm2022/overlay-module-BUj0D19H.mjs:2516:27)
+      at _MatSnackBar._createOverlay (node_modules/@angular/material/fesm2022/snack-bar.mjs:745:30)
+      at _MatSnackBar._attach (node_modules/@angular/material/fesm2022/snack-bar.mjs:649:33)
+      at _MatSnackBar.openFromComponent (node_modules/@angular/material/fesm2022/snack-bar.mjs:586:21)
+      at _MatSnackBar.open (node_modules/@angular/material/fesm2022/snack-bar.mjs:614:21)
+      at Object.open (src/app/pages/students/student-form/student-form.component.ts:109:23)
+      at ConsumerObserver.Object.<anonymous>.ConsumerObserver.next 
+(node_modules/rxjs/src/internal/Subscriber.ts:155:25)
+      at SafeSubscriber.Object.<anonymous>.Subscriber._next (node_modules/rxjs/src/internal/Subscriber.ts:113:22)
+      at SafeSubscriber.Object.<anonymous>.Subscriber.next (node_modules/rxjs/src/internal/Subscriber.ts:71:12)
+      at Observable._subscribe (node_modules/rxjs/src/internal/observable/innerFrom.ts:78:18)
+      at Observable.Object.<anonymous>.Observable._trySubscribe 
+(node_modules/rxjs/src/internal/Observable.ts:235:19)
+      at node_modules/rxjs/src/internal/Observable.ts:225:18
+      at Object.errorContext (node_modules/rxjs/src/internal/util/errorContext.ts:29:5)
+      at Observable.Object.<anonymous>.Observable.subscribe (node_modules/rxjs/src/internal/Observable.ts:211:5)
+      at StudentFormComponent.subscribe [as createStudent] 
+(src/app/pages/students/student-form/student-form.component.ts:107:41)
+      at StudentFormComponent.createStudent [as onSubmit] 
+(src/app/pages/students/student-form/student-form.component.ts:101:14)
+      at src/app/pages/students/student-form/student-form.component.spec.ts:138:17
+      at fakeAsyncFn (node_modules/zone.js/bundles/zone-testing.umd.js:1794:30)
+      at _ZoneDelegate.invoke (node_modules/zone.js/bundles/zone.umd.js:410:32)
+      at ProxyZoneSpec.Object.<anonymous>.ProxyZoneSpec.onInvoke 
+(node_modules/zone.js/bundles/zone-testing.umd.js:2219:43)
+      at _ZoneDelegate.invoke (node_modules/zone.js/bundles/zone.umd.js:409:38)
+      at ZoneImpl.run (node_modules/zone.js/bundles/zone.umd.js:145:47)
+      at Object.wrappedFunc (node_modules/zone.js/bundles/zone-testing.umd.js:449:38)
+
+    console.error
+      Error creating student: { error: 'Email already exists' }
+
+    [0m [90m 113 |[39m       }[33m,[39m
+     [90m 114 |[39m       error[33m:[39m (error) [33m=>[39m {
+    [31m[1m>[22m[39m[90m 115 |[39m         console[33m.[39merror([32m'Error creating 
+student:'[39m[33m,[39m error)[33m;[39m
+     [90m     |[39m                 [31m[1m^[22m[39m
+     [90m 116 |[39m         [36mconst[39m message [33m=[39m error[33m.[39merror [33m||[39m [32m'Erreur 
+lors de la cr├®ation'[39m[33m;[39m
+     [90m 117 |[39m         [36mthis[39m[33m.[39msnackBar[33m.[39mopen(message[33m,[39m 
+[32m'Fermer'[39m[33m,[39m {
+     [90m 118 |[39m           duration[33m:[39m [35m3000[39m[0m
+
+      at Object.error (src/app/pages/students/student-form/student-form.component.ts:115:17)
+      at ConsumerObserver.Object.<anonymous>.ConsumerObserver.error 
+(node_modules/rxjs/src/internal/Subscriber.ts:166:25)
+      at SafeSubscriber.Object.<anonymous>.Subscriber._error (node_modules/rxjs/src/internal/Subscriber.ts:118:24)
+      at SafeSubscriber.Object.<anonymous>.Subscriber.error (node_modules/rxjs/src/internal/Subscriber.ts:86:12)
+      at Observable.init [as _subscribe] (node_modules/rxjs/src/internal/observable/throwError.ts:123:62)
+      at Observable.Object.<anonymous>.Observable._trySubscribe 
+(node_modules/rxjs/src/internal/Observable.ts:235:19)
+      at node_modules/rxjs/src/internal/Observable.ts:225:18
+      at Object.errorContext (node_modules/rxjs/src/internal/util/errorContext.ts:29:5)
+      at Observable.Object.<anonymous>.Observable.subscribe (node_modules/rxjs/src/internal/Observable.ts:211:5)
+      at StudentFormComponent.subscribe [as createStudent] 
+(src/app/pages/students/student-form/student-form.component.ts:107:41)
+      at StudentFormComponent.createStudent [as onSubmit] 
+(src/app/pages/students/student-form/student-form.component.ts:101:14)
+      at src/app/pages/students/student-form/student-form.component.spec.ts:154:17
+      at fakeAsyncFn (node_modules/zone.js/bundles/zone-testing.umd.js:1794:30)
+      at _ZoneDelegate.invoke (node_modules/zone.js/bundles/zone.umd.js:410:32)
+      at ProxyZoneSpec.Object.<anonymous>.ProxyZoneSpec.onInvoke 
+(node_modules/zone.js/bundles/zone-testing.umd.js:2219:43)
+      at _ZoneDelegate.invoke (node_modules/zone.js/bundles/zone.umd.js:409:38)
+      at ZoneImpl.run (node_modules/zone.js/bundles/zone.umd.js:145:47)
+      at Object.wrappedFunc (node_modules/zone.js/bundles/zone-testing.umd.js:449:38)
+
+    console.error
+      Error: Could not parse CSS stylesheet
+          at exports.createStylesheet (C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\jsdom\
+lib\jsdom\living\helpers\stylesheets.js:34:21)
+          at HTMLStyleElementImpl._updateAStyleBlock (C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node
+_modules\jsdom\lib\jsdom\living\nodes\HTMLStyleElement-impl.js:68:5)
+          at HTMLStyleElementImpl._attach (C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\js
+dom\lib\jsdom\living\nodes\HTMLStyleElement-impl.js:19:12)
+          at HTMLHeadElementImpl._insert (C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\jsd
+om\lib\jsdom\living\nodes\Node-impl.js:835:14)
+          at HTMLHeadElementImpl._preInsert (C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\
+jsdom\lib\jsdom\living\nodes\Node-impl.js:756:10)
+          at HTMLHeadElementImpl._append (C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\jsd
+om\lib\jsdom\living\nodes\Node-impl.js:862:17)
+          at HTMLHeadElementImpl.appendChild (C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules
+\jsdom\lib\jsdom\living\nodes\Node-impl.js:598:17)
+          at HTMLHeadElement.appendChild (C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\jsd
+om\lib\jsdom\living\generated\Node.js:411:60)
+          at _SharedStylesHost.addElement (C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\@a
+ngular\platform-browser\fesm2022\dom_renderer-DGKzginR.mjs:278:21)
+          at C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\@angular\platform-browser\fesm20
+22\dom_renderer-DGKzginR.mjs:226:62
+          at Array.map (<anonymous>)
+          at _SharedStylesHost.addUsage (C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\@ang
+ular\platform-browser\fesm2022\dom_renderer-DGKzginR.mjs:226:43)
+          at _SharedStylesHost.addStyles (C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\@an
+gular\platform-browser\fesm2022\dom_renderer-DGKzginR.mjs:196:18)
+          at NoneEncapsulationDomRenderer.applyStyles (C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\nod
+e_modules\@angular\platform-browser\fesm2022\dom_renderer-DGKzginR.mjs:753:31)
+          at _DomRendererFactory2.createRenderer (C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_mod
+ules\@angular\platform-browser\fesm2022\dom_renderer-DGKzginR.mjs:418:22)
+          at createComponentLView 
+(C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\@angular\core\fesm2022\core.mjs:12237:160)
+          at instantiateAllDirectives 
+(C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\@angular\core\fesm2022\core.mjs:12645:9)
+          at createDirectivesInstances 
+(C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\@angular\core\fesm2022\core.mjs:12443:5)
+          at ComponentFactory2.create 
+(C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\@angular\core\fesm2022\core.mjs:18044:17)
+          at createComponent 
+(C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\@angular\core\fesm2022\core.mjs:40526:20)
+          at __CdkPrivateStyleLoader.load (C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\@a
+ngular\cdk\fesm2022\style-loader-Cu9AvjH9.mjs:35:28)
+          at _Overlay.create (C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\@angular\cdk\fe
+sm2022\overlay-module-BUj0D19H.mjs:2516:27)
+          at _MatSnackBar._createOverlay (C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\@an
+gular\material\fesm2022\snack-bar.mjs:745:30)
+          at _MatSnackBar._attach (C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\@angular\m
+aterial\fesm2022\snack-bar.mjs:649:33)
+          at _MatSnackBar.openFromComponent (C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\
+@angular\material\fesm2022\snack-bar.mjs:586:21)
+          at _MatSnackBar.open (C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\@angular\mate
+rial\fesm2022\snack-bar.mjs:614:21)
+          at Object.open [as error] (C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\src\app\pages\student
+s\student-form\student-form.component.ts:117:23)
+          at ConsumerObserver.Object.<anonymous>.ConsumerObserver.error 
+(C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\rxjs\src\internal\Subscriber.ts:166:25)
+          at SafeSubscriber.Object.<anonymous>.Subscriber._error 
+(C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\rxjs\src\internal\Subscriber.ts:118:24)
+          at SafeSubscriber.Object.<anonymous>.Subscriber.error 
+(C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\rxjs\src\internal\Subscriber.ts:86:12)
+          at Observable.init [as _subscribe] (C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules
+\rxjs\src\internal\observable\throwError.ts:123:62)
+          at Observable.Object.<anonymous>.Observable._trySubscribe 
+(C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\rxjs\src\internal\Observable.ts:235:19)
+          at 
+C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\rxjs\src\internal\Observable.ts:225:18
+          at Object.errorContext 
+(C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\rxjs\src\internal\util\errorContext.ts:29:5)
+          at Observable.Object.<anonymous>.Observable.subscribe 
+(C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\rxjs\src\internal\Observable.ts:211:5)
+          at StudentFormComponent.subscribe [as createStudent] (C:\Users\the_m\Documents\formation_OC\Projet2\Fron
+t-end\src\app\pages\students\student-form\student-form.component.ts:107:41)
+          at StudentFormComponent.createStudent [as onSubmit] (C:\Users\the_m\Documents\formation_OC\Projet2\Front
+-end\src\app\pages\students\student-form\student-form.component.ts:101:14)
+          at C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\src\app\pages\students\student-form\student-f
+orm.component.spec.ts:154:17
+          at fakeAsyncFn 
+(C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\zone.js\bundles\zone-testing.umd.js:1794:30)
+          at _ZoneDelegate.invoke 
+(C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\zone.js\bundles\zone.umd.js:410:32)
+          at ProxyZoneSpec.Object.<anonymous>.ProxyZoneSpec.onInvoke 
+(C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\zone.js\bundles\zone-testing.umd.js:2219:43)
+          at _ZoneDelegate.invoke 
+(C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\zone.js\bundles\zone.umd.js:409:38)
+          at ZoneImpl.run 
+(C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\zone.js\bundles\zone.umd.js:145:47)
+          at Object.wrappedFunc 
+(C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\zone.js\bundles\zone-testing.umd.js:449:38)
+          at Promise.then.completed 
+(C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\jest-circus\build\utils.js:298:28)
+          at new Promise (<anonymous>)
+          at callAsyncCircusFn 
+(C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\jest-circus\build\utils.js:231:10)
+          at _callCircusTest 
+(C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\jest-circus\build\run.js:316:40)
+          at processTicksAndRejections (node:internal/process/task_queues:103:5)
+          at _runTest 
+(C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\jest-circus\build\run.js:252:3)
+          at _runTestsForDescribeBlock 
+(C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\jest-circus\build\run.js:126:9)
+          at _runTestsForDescribeBlock 
+(C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\jest-circus\build\run.js:121:9)
+          at _runTestsForDescribeBlock 
+(C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\jest-circus\build\run.js:121:9)
+          at run 
+(C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\jest-circus\build\run.js:71:3)
+          at runAndTransformResultsToJestFormat (C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modu
+les\jest-circus\build\legacy-code-todo-rewrite\jestAdapterInit.js:122:21) {
+        detail: '.cdk-overlay-container,.cdk-global-overlay-wrapper{pointer-events:none;top:0;left:0;height:100%;w
+idth:100%}.cdk-overlay-container{position:fixed}@layer cdk-overlay{.cdk-overlay-container{z-index:1000}}.cdk-overl
+ay-container:empty{display:none}.cdk-global-overlay-wrapper{display:flex;position:absolute}@layer cdk-overlay{.cdk
+-global-overlay-wrapper{z-index:1000}}.cdk-overlay-pane{position:absolute;pointer-events:auto;box-sizing:border-bo
+x;display:flex;max-width:100%;max-height:100%}@layer cdk-overlay{.cdk-overlay-pane{z-index:1000}}.cdk-overlay-back
+drop{position:absolute;top:0;bottom:0;left:0;right:0;pointer-events:auto;-webkit-tap-highlight-color:rgba(0,0,0,0)
+;opacity:0;touch-action:manipulation}@layer cdk-overlay{.cdk-overlay-backdrop{z-index:1000;transition:opacity 
+400ms cubic-bezier(0.25, 0.8, 0.25, 1)}}@media(prefers-reduced-motion){.cdk-overlay-backdrop{transition-duration:1
+ms}}.cdk-overlay-backdrop-showing{opacity:1}@media(forced-colors: 
+active){.cdk-overlay-backdrop-showing{opacity:.6}}@layer cdk-overlay{.cdk-overlay-dark-backdrop{background:rgba(0,
+0,0,.32)}}.cdk-overlay-transparent-backdrop{transition:visibility 1ms linear,opacity 1ms linear;visibility:hidden;
+opacity:1}.cdk-overlay-transparent-backdrop.cdk-overlay-backdrop-showing,.cdk-high-contrast-active .cdk-overlay-tr
+ansparent-backdrop{opacity:0;visibility:visible}.cdk-overlay-backdrop-noop-animation{transition:none}.cdk-overlay-
+connected-position-bounding-box{position:absolute;display:flex;flex-direction:column;min-width:1px;min-height:1px}
+@layer cdk-overlay{.cdk-overlay-connected-position-bounding-box{z-index:1000}}.cdk-global-scrollblock{position:fix
+ed;width:100%;overflow-y:scroll}\n',
+        type: 'css parsing'
+      }
+
+    [0m [90m 115 |[39m         console[33m.[39merror([32m'Error creating student:'[39m[33m,[39m 
+error)[33m;[39m
+     [90m 116 |[39m         [36mconst[39m message [33m=[39m error[33m.[39merror [33m||[39m [32m'Erreur 
+lors de la cr├®ation'[39m[33m;[39m
+    [31m[1m>[22m[39m[90m 117 |[39m         
+[36mthis[39m[33m.[39msnackBar[33m.[39mopen(message[33m,[39m [32m'Fermer'[39m[33m,[39m {
+     [90m     |[39m                       [31m[1m^[22m[39m
+     [90m 118 |[39m           duration[33m:[39m [35m3000[39m
+     [90m 119 |[39m         })[33m;[39m
+     [90m 120 |[39m         [36mthis[39m[33m.[39misLoading [33m=[39m [36mfalse[39m[33m;[39m[0m
+
+      at VirtualConsole.<anonymous> (node_modules/jest-environment-jsdom/build/index.js:63:23)
+      at exports.createStylesheet (node_modules/jsdom/lib/jsdom/living/helpers/stylesheets.js:38:63)
+      at HTMLStyleElementImpl._updateAStyleBlock 
+(node_modules/jsdom/lib/jsdom/living/nodes/HTMLStyleElement-impl.js:68:5)
+      at HTMLStyleElementImpl._attach (node_modules/jsdom/lib/jsdom/living/nodes/HTMLStyleElement-impl.js:19:12)
+      at HTMLHeadElementImpl._insert (node_modules/jsdom/lib/jsdom/living/nodes/Node-impl.js:835:14)
+      at HTMLHeadElementImpl._preInsert (node_modules/jsdom/lib/jsdom/living/nodes/Node-impl.js:756:10)
+      at HTMLHeadElementImpl._append (node_modules/jsdom/lib/jsdom/living/nodes/Node-impl.js:862:17)
+      at HTMLHeadElementImpl.appendChild (node_modules/jsdom/lib/jsdom/living/nodes/Node-impl.js:598:17)
+      at HTMLHeadElement.appendChild (node_modules/jsdom/lib/jsdom/living/generated/Node.js:411:60)
+      at _SharedStylesHost.addElement 
+(node_modules/@angular/platform-browser/fesm2022/dom_renderer-DGKzginR.mjs:278:21)
+      at node_modules/@angular/platform-browser/fesm2022/dom_renderer-DGKzginR.mjs:226:62
+          at Array.map (<anonymous>)
+      at _SharedStylesHost.addUsage 
+(node_modules/@angular/platform-browser/fesm2022/dom_renderer-DGKzginR.mjs:226:43)
+      at _SharedStylesHost.addStyles 
+(node_modules/@angular/platform-browser/fesm2022/dom_renderer-DGKzginR.mjs:196:18)
+      at NoneEncapsulationDomRenderer.applyStyles 
+(node_modules/@angular/platform-browser/fesm2022/dom_renderer-DGKzginR.mjs:753:31)
+      at _DomRendererFactory2.createRenderer 
+(node_modules/@angular/platform-browser/fesm2022/dom_renderer-DGKzginR.mjs:418:22)
+      at createComponentLView (node_modules/@angular/core/fesm2022/core.mjs:12237:160)
+      at instantiateAllDirectives (node_modules/@angular/core/fesm2022/core.mjs:12645:9)
+      at createDirectivesInstances (node_modules/@angular/core/fesm2022/core.mjs:12443:5)
+      at ComponentFactory2.create (node_modules/@angular/core/fesm2022/core.mjs:18044:17)
+      at createComponent (node_modules/@angular/core/fesm2022/core.mjs:40526:20)
+      at __CdkPrivateStyleLoader.load (node_modules/@angular/cdk/fesm2022/style-loader-Cu9AvjH9.mjs:35:28)
+      at _Overlay.create (node_modules/@angular/cdk/fesm2022/overlay-module-BUj0D19H.mjs:2516:27)
+      at _MatSnackBar._createOverlay (node_modules/@angular/material/fesm2022/snack-bar.mjs:745:30)
+      at _MatSnackBar._attach (node_modules/@angular/material/fesm2022/snack-bar.mjs:649:33)
+      at _MatSnackBar.openFromComponent (node_modules/@angular/material/fesm2022/snack-bar.mjs:586:21)
+      at _MatSnackBar.open (node_modules/@angular/material/fesm2022/snack-bar.mjs:614:21)
+      at Object.open [as error] (src/app/pages/students/student-form/student-form.component.ts:117:23)
+      at ConsumerObserver.Object.<anonymous>.ConsumerObserver.error 
+(node_modules/rxjs/src/internal/Subscriber.ts:166:25)
+      at SafeSubscriber.Object.<anonymous>.Subscriber._error (node_modules/rxjs/src/internal/Subscriber.ts:118:24)
+      at SafeSubscriber.Object.<anonymous>.Subscriber.error (node_modules/rxjs/src/internal/Subscriber.ts:86:12)
+      at Observable.init [as _subscribe] (node_modules/rxjs/src/internal/observable/throwError.ts:123:62)
+      at Observable.Object.<anonymous>.Observable._trySubscribe 
+(node_modules/rxjs/src/internal/Observable.ts:235:19)
+      at node_modules/rxjs/src/internal/Observable.ts:225:18
+      at Object.errorContext (node_modules/rxjs/src/internal/util/errorContext.ts:29:5)
+      at Observable.Object.<anonymous>.Observable.subscribe (node_modules/rxjs/src/internal/Observable.ts:211:5)
+      at StudentFormComponent.subscribe [as createStudent] 
+(src/app/pages/students/student-form/student-form.component.ts:107:41)
+      at StudentFormComponent.createStudent [as onSubmit] 
+(src/app/pages/students/student-form/student-form.component.ts:101:14)
+      at src/app/pages/students/student-form/student-form.component.spec.ts:154:17
+      at fakeAsyncFn (node_modules/zone.js/bundles/zone-testing.umd.js:1794:30)
+      at _ZoneDelegate.invoke (node_modules/zone.js/bundles/zone.umd.js:410:32)
+      at ProxyZoneSpec.Object.<anonymous>.ProxyZoneSpec.onInvoke 
+(node_modules/zone.js/bundles/zone-testing.umd.js:2219:43)
+      at _ZoneDelegate.invoke (node_modules/zone.js/bundles/zone.umd.js:409:38)
+      at ZoneImpl.run (node_modules/zone.js/bundles/zone.umd.js:145:47)
+      at Object.wrappedFunc (node_modules/zone.js/bundles/zone-testing.umd.js:449:38)
+
+    console.error
+      Error loading student: Error: Not found
+          at C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\src\app\pages\students\student-form\student-f
+orm.component.spec.ts:190:63
+          at Observable.init [as _subscribe] (C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules
+\rxjs\src\internal\observable\throwError.ts:123:68)
+          at Observable.Object.<anonymous>.Observable._trySubscribe 
+(C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\rxjs\src\internal\Observable.ts:235:19)
+          at 
+C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\rxjs\src\internal\Observable.ts:225:18
+          at Object.errorContext 
+(C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\rxjs\src\internal\util\errorContext.ts:29:5)
+          at Observable.Object.<anonymous>.Observable.subscribe 
+(C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\rxjs\src\internal\Observable.ts:211:5)
+          at StudentFormComponent.subscribe [as loadStudent] (C:\Users\the_m\Documents\formation_OC\Projet2\Front-
+end\src\app\pages\students\student-form\student-form.component.ts:64:37)
+          at StudentFormComponent.loadStudent [as ngOnInit] (C:\Users\the_m\Documents\formation_OC\Projet2\Front-e
+nd\src\app\pages\students\student-form\student-form.component.ts:58:12)
+          at callHookInternal 
+(C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\@angular\core\fesm2022\core.mjs:4225:14)
+          at callHook 
+(C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\@angular\core\fesm2022\core.mjs:4252:13)
+          at callHooks 
+(C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\@angular\core\fesm2022\core.mjs:4206:17)
+          at executeInitAndCheckHooks 
+(C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\@angular\core\fesm2022\core.mjs:4156:9)
+          at refreshView 
+(C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\@angular\core\fesm2022\core.mjs:14129:21)
+          at detectChangesInView 
+(C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\@angular\core\fesm2022\core.mjs:14334:9)
+          at detectChangesInViewWhileDirty 
+(C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\@angular\core\fesm2022\core.mjs:14026:9)
+          at detectChangesInternal 
+(C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\@angular\core\fesm2022\core.mjs:14008:9)
+          at ViewRef.detectChanges 
+(C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\@angular\core\fesm2022\core.mjs:14865:9)
+          at 
+C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\@angular\core\fesm2022\testing.mjs:292:44
+          at _ZoneDelegate.invoke 
+(C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\zone.js\bundles\zone.umd.js:410:32)
+          at Object.onInvoke 
+(C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\@angular\core\fesm2022\core.mjs:6568:33)
+          at _ZoneDelegate.invoke 
+(C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\zone.js\bundles\zone.umd.js:409:38)
+          at ZoneImpl.run 
+(C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\zone.js\bundles\zone.umd.js:145:47)
+          at NgZone.run 
+(C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\@angular\core\fesm2022\core.mjs:6414:28)
+          at ComponentFixture.detectChanges 
+(C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\@angular\core\fesm2022\testing.mjs:289:30)
+          at C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\src\app\pages\students\student-form\student-f
+orm.component.spec.ts:193:18
+          at fakeAsyncFn 
+(C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\zone.js\bundles\zone-testing.umd.js:1794:30)
+          at _ZoneDelegate.invoke 
+(C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\zone.js\bundles\zone.umd.js:410:32)
+          at ProxyZoneSpec.Object.<anonymous>.ProxyZoneSpec.onInvoke 
+(C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\zone.js\bundles\zone-testing.umd.js:2219:43)
+          at _ZoneDelegate.invoke 
+(C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\zone.js\bundles\zone.umd.js:409:38)
+          at ZoneImpl.run 
+(C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\zone.js\bundles\zone.umd.js:145:47)
+          at Object.wrappedFunc 
+(C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\zone.js\bundles\zone-testing.umd.js:449:38)
+          at Promise.then.completed 
+(C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\jest-circus\build\utils.js:298:28)
+          at new Promise (<anonymous>)
+          at callAsyncCircusFn 
+(C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\jest-circus\build\utils.js:231:10)
+          at _callCircusTest 
+(C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\jest-circus\build\run.js:316:40)
+          at processTicksAndRejections (node:internal/process/task_queues:103:5)
+          at _runTest 
+(C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\jest-circus\build\run.js:252:3)
+          at _runTestsForDescribeBlock 
+(C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\jest-circus\build\run.js:126:9)
+          at _runTestsForDescribeBlock 
+(C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\jest-circus\build\run.js:121:9)
+          at _runTestsForDescribeBlock 
+(C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\jest-circus\build\run.js:121:9)
+          at run 
+(C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\jest-circus\build\run.js:71:3)
+          at runAndTransformResultsToJestFormat (C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modu
+les\jest-circus\build\legacy-code-todo-rewrite\jestAdapterInit.js:122:21)
+
+    [0m [90m 75 |[39m       }[33m,[39m
+     [90m 76 |[39m       error[33m:[39m (error) [33m=>[39m {
+    [31m[1m>[22m[39m[90m 77 |[39m         console[33m.[39merror([32m'Error loading 
+student:'[39m[33m,[39m error)[33m;[39m
+     [90m    |[39m                 [31m[1m^[22m[39m
+     [90m 78 |[39m         [36mthis[39m[33m.[39msnackBar[33m.[39mopen([32m'Erreur lors du chargement de 
+l\'├®tudiant'[39m[33m,[39m [32m'Fermer'[39m[33m,[39m {
+     [90m 79 |[39m           duration[33m:[39m [35m3000[39m
+     [90m 80 |[39m         })[33m;[39m[0m
+
+      at Object.error (src/app/pages/students/student-form/student-form.component.ts:77:17)
+      at ConsumerObserver.Object.<anonymous>.ConsumerObserver.error 
+(node_modules/rxjs/src/internal/Subscriber.ts:166:25)
+      at SafeSubscriber.Object.<anonymous>.Subscriber._error (node_modules/rxjs/src/internal/Subscriber.ts:118:24)
+      at SafeSubscriber.Object.<anonymous>.Subscriber.error (node_modules/rxjs/src/internal/Subscriber.ts:86:12)
+      at Observable.init [as _subscribe] (node_modules/rxjs/src/internal/observable/throwError.ts:123:62)
+      at Observable.Object.<anonymous>.Observable._trySubscribe 
+(node_modules/rxjs/src/internal/Observable.ts:235:19)
+      at node_modules/rxjs/src/internal/Observable.ts:225:18
+      at Object.errorContext (node_modules/rxjs/src/internal/util/errorContext.ts:29:5)
+      at Observable.Object.<anonymous>.Observable.subscribe (node_modules/rxjs/src/internal/Observable.ts:211:5)
+      at StudentFormComponent.subscribe [as loadStudent] 
+(src/app/pages/students/student-form/student-form.component.ts:64:37)
+      at StudentFormComponent.loadStudent [as ngOnInit] 
+(src/app/pages/students/student-form/student-form.component.ts:58:12)
+      at callHookInternal (node_modules/@angular/core/fesm2022/core.mjs:4225:14)
+      at callHook (node_modules/@angular/core/fesm2022/core.mjs:4252:13)
+      at callHooks (node_modules/@angular/core/fesm2022/core.mjs:4206:17)
+      at executeInitAndCheckHooks (node_modules/@angular/core/fesm2022/core.mjs:4156:9)
+      at refreshView (node_modules/@angular/core/fesm2022/core.mjs:14129:21)
+      at detectChangesInView (node_modules/@angular/core/fesm2022/core.mjs:14334:9)
+      at detectChangesInViewWhileDirty (node_modules/@angular/core/fesm2022/core.mjs:14026:9)
+      at detectChangesInternal (node_modules/@angular/core/fesm2022/core.mjs:14008:9)
+      at ViewRef.detectChanges (node_modules/@angular/core/fesm2022/core.mjs:14865:9)
+      at node_modules/@angular/core/fesm2022/testing.mjs:292:44
+      at _ZoneDelegate.invoke (node_modules/zone.js/bundles/zone.umd.js:410:32)
+      at Object.onInvoke (node_modules/@angular/core/fesm2022/core.mjs:6568:33)
+      at _ZoneDelegate.invoke (node_modules/zone.js/bundles/zone.umd.js:409:38)
+      at ZoneImpl.run (node_modules/zone.js/bundles/zone.umd.js:145:47)
+      at NgZone.run (node_modules/@angular/core/fesm2022/core.mjs:6414:28)
+      at ComponentFixture.detectChanges (node_modules/@angular/core/fesm2022/testing.mjs:289:30)
+      at src/app/pages/students/student-form/student-form.component.spec.ts:193:18
+      at fakeAsyncFn (node_modules/zone.js/bundles/zone-testing.umd.js:1794:30)
+      at _ZoneDelegate.invoke (node_modules/zone.js/bundles/zone.umd.js:410:32)
+      at ProxyZoneSpec.Object.<anonymous>.ProxyZoneSpec.onInvoke 
+(node_modules/zone.js/bundles/zone-testing.umd.js:2219:43)
+      at _ZoneDelegate.invoke (node_modules/zone.js/bundles/zone.umd.js:409:38)
+      at ZoneImpl.run (node_modules/zone.js/bundles/zone.umd.js:145:47)
+      at Object.wrappedFunc (node_modules/zone.js/bundles/zone-testing.umd.js:449:38)
+
+    console.error
+      Error: Could not parse CSS stylesheet
+          at exports.createStylesheet (C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\jsdom\
+lib\jsdom\living\helpers\stylesheets.js:34:21)
+          at HTMLStyleElementImpl._updateAStyleBlock (C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node
+_modules\jsdom\lib\jsdom\living\nodes\HTMLStyleElement-impl.js:68:5)
+          at HTMLStyleElementImpl._attach (C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\js
+dom\lib\jsdom\living\nodes\HTMLStyleElement-impl.js:19:12)
+          at HTMLHeadElementImpl._insert (C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\jsd
+om\lib\jsdom\living\nodes\Node-impl.js:835:14)
+          at HTMLHeadElementImpl._preInsert (C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\
+jsdom\lib\jsdom\living\nodes\Node-impl.js:756:10)
+          at HTMLHeadElementImpl._append (C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\jsd
+om\lib\jsdom\living\nodes\Node-impl.js:862:17)
+          at HTMLHeadElementImpl.appendChild (C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules
+\jsdom\lib\jsdom\living\nodes\Node-impl.js:598:17)
+          at HTMLHeadElement.appendChild (C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\jsd
+om\lib\jsdom\living\generated\Node.js:411:60)
+          at _SharedStylesHost.addElement (C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\@a
+ngular\platform-browser\fesm2022\dom_renderer-DGKzginR.mjs:278:21)
+          at C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\@angular\platform-browser\fesm20
+22\dom_renderer-DGKzginR.mjs:226:62
+          at Array.map (<anonymous>)
+          at _SharedStylesHost.addUsage (C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\@ang
+ular\platform-browser\fesm2022\dom_renderer-DGKzginR.mjs:226:43)
+          at _SharedStylesHost.addStyles (C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\@an
+gular\platform-browser\fesm2022\dom_renderer-DGKzginR.mjs:196:18)
+          at NoneEncapsulationDomRenderer.applyStyles (C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\nod
+e_modules\@angular\platform-browser\fesm2022\dom_renderer-DGKzginR.mjs:753:31)
+          at _DomRendererFactory2.createRenderer (C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_mod
+ules\@angular\platform-browser\fesm2022\dom_renderer-DGKzginR.mjs:418:22)
+          at createComponentLView 
+(C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\@angular\core\fesm2022\core.mjs:12237:160)
+          at instantiateAllDirectives 
+(C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\@angular\core\fesm2022\core.mjs:12645:9)
+          at createDirectivesInstances 
+(C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\@angular\core\fesm2022\core.mjs:12443:5)
+          at ComponentFactory2.create 
+(C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\@angular\core\fesm2022\core.mjs:18044:17)
+          at createComponent 
+(C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\@angular\core\fesm2022\core.mjs:40526:20)
+          at __CdkPrivateStyleLoader.load (C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\@a
+ngular\cdk\fesm2022\style-loader-Cu9AvjH9.mjs:35:28)
+          at _Overlay.create (C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\@angular\cdk\fe
+sm2022\overlay-module-BUj0D19H.mjs:2516:27)
+          at _MatSnackBar._createOverlay (C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\@an
+gular\material\fesm2022\snack-bar.mjs:745:30)
+          at _MatSnackBar._attach (C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\@angular\m
+aterial\fesm2022\snack-bar.mjs:649:33)
+          at _MatSnackBar.openFromComponent (C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\
+@angular\material\fesm2022\snack-bar.mjs:586:21)
+          at _MatSnackBar.open (C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\@angular\mate
+rial\fesm2022\snack-bar.mjs:614:21)
+          at Object.open [as error] (C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\src\app\pages\student
+s\student-form\student-form.component.ts:78:23)
+          at ConsumerObserver.Object.<anonymous>.ConsumerObserver.error 
+(C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\rxjs\src\internal\Subscriber.ts:166:25)
+          at SafeSubscriber.Object.<anonymous>.Subscriber._error 
+(C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\rxjs\src\internal\Subscriber.ts:118:24)
+          at SafeSubscriber.Object.<anonymous>.Subscriber.error 
+(C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\rxjs\src\internal\Subscriber.ts:86:12)
+          at Observable.init [as _subscribe] (C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules
+\rxjs\src\internal\observable\throwError.ts:123:62)
+          at Observable.Object.<anonymous>.Observable._trySubscribe 
+(C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\rxjs\src\internal\Observable.ts:235:19)
+          at 
+C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\rxjs\src\internal\Observable.ts:225:18
+          at Object.errorContext 
+(C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\rxjs\src\internal\util\errorContext.ts:29:5)
+          at Observable.Object.<anonymous>.Observable.subscribe 
+(C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\rxjs\src\internal\Observable.ts:211:5)
+          at StudentFormComponent.subscribe [as loadStudent] (C:\Users\the_m\Documents\formation_OC\Projet2\Front-
+end\src\app\pages\students\student-form\student-form.component.ts:64:37)
+          at StudentFormComponent.loadStudent [as ngOnInit] (C:\Users\the_m\Documents\formation_OC\Projet2\Front-e
+nd\src\app\pages\students\student-form\student-form.component.ts:58:12)
+          at callHookInternal 
+(C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\@angular\core\fesm2022\core.mjs:4225:14)
+          at callHook 
+(C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\@angular\core\fesm2022\core.mjs:4252:13)
+          at callHooks 
+(C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\@angular\core\fesm2022\core.mjs:4206:17)
+          at executeInitAndCheckHooks 
+(C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\@angular\core\fesm2022\core.mjs:4156:9)
+          at refreshView 
+(C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\@angular\core\fesm2022\core.mjs:14129:21)
+          at detectChangesInView 
+(C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\@angular\core\fesm2022\core.mjs:14334:9)
+          at detectChangesInViewWhileDirty 
+(C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\@angular\core\fesm2022\core.mjs:14026:9)
+          at detectChangesInternal 
+(C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\@angular\core\fesm2022\core.mjs:14008:9)
+          at ViewRef.detectChanges 
+(C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\@angular\core\fesm2022\core.mjs:14865:9)
+          at 
+C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\@angular\core\fesm2022\testing.mjs:292:44
+          at _ZoneDelegate.invoke 
+(C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\zone.js\bundles\zone.umd.js:410:32)
+          at Object.onInvoke 
+(C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\@angular\core\fesm2022\core.mjs:6568:33)
+          at _ZoneDelegate.invoke 
+(C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\zone.js\bundles\zone.umd.js:409:38)
+          at ZoneImpl.run 
+(C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\zone.js\bundles\zone.umd.js:145:47)
+          at NgZone.run 
+(C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\@angular\core\fesm2022\core.mjs:6414:28)
+          at ComponentFixture.detectChanges 
+(C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\@angular\core\fesm2022\testing.mjs:289:30)
+          at C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\src\app\pages\students\student-form\student-f
+orm.component.spec.ts:193:18
+          at fakeAsyncFn 
+(C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\zone.js\bundles\zone-testing.umd.js:1794:30)
+          at _ZoneDelegate.invoke 
+(C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\zone.js\bundles\zone.umd.js:410:32)
+          at ProxyZoneSpec.Object.<anonymous>.ProxyZoneSpec.onInvoke 
+(C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\zone.js\bundles\zone-testing.umd.js:2219:43)
+          at _ZoneDelegate.invoke 
+(C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\zone.js\bundles\zone.umd.js:409:38)
+          at ZoneImpl.run 
+(C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\zone.js\bundles\zone.umd.js:145:47)
+          at Object.wrappedFunc 
+(C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\zone.js\bundles\zone-testing.umd.js:449:38)
+          at Promise.then.completed 
+(C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\jest-circus\build\utils.js:298:28)
+          at new Promise (<anonymous>)
+          at callAsyncCircusFn 
+(C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\jest-circus\build\utils.js:231:10)
+          at _callCircusTest 
+(C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\jest-circus\build\run.js:316:40)
+          at processTicksAndRejections (node:internal/process/task_queues:103:5)
+          at _runTest 
+(C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\jest-circus\build\run.js:252:3)
+          at _runTestsForDescribeBlock 
+(C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\jest-circus\build\run.js:126:9)
+          at _runTestsForDescribeBlock 
+(C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\jest-circus\build\run.js:121:9)
+          at _runTestsForDescribeBlock 
+(C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\jest-circus\build\run.js:121:9)
+          at run 
+(C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\jest-circus\build\run.js:71:3)
+          at runAndTransformResultsToJestFormat (C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modu
+les\jest-circus\build\legacy-code-todo-rewrite\jestAdapterInit.js:122:21) {
+        detail: '.cdk-overlay-container,.cdk-global-overlay-wrapper{pointer-events:none;top:0;left:0;height:100%;w
+idth:100%}.cdk-overlay-container{position:fixed}@layer cdk-overlay{.cdk-overlay-container{z-index:1000}}.cdk-overl
+ay-container:empty{display:none}.cdk-global-overlay-wrapper{display:flex;position:absolute}@layer cdk-overlay{.cdk
+-global-overlay-wrapper{z-index:1000}}.cdk-overlay-pane{position:absolute;pointer-events:auto;box-sizing:border-bo
+x;display:flex;max-width:100%;max-height:100%}@layer cdk-overlay{.cdk-overlay-pane{z-index:1000}}.cdk-overlay-back
+drop{position:absolute;top:0;bottom:0;left:0;right:0;pointer-events:auto;-webkit-tap-highlight-color:rgba(0,0,0,0)
+;opacity:0;touch-action:manipulation}@layer cdk-overlay{.cdk-overlay-backdrop{z-index:1000;transition:opacity 
+400ms cubic-bezier(0.25, 0.8, 0.25, 1)}}@media(prefers-reduced-motion){.cdk-overlay-backdrop{transition-duration:1
+ms}}.cdk-overlay-backdrop-showing{opacity:1}@media(forced-colors: 
+active){.cdk-overlay-backdrop-showing{opacity:.6}}@layer cdk-overlay{.cdk-overlay-dark-backdrop{background:rgba(0,
+0,0,.32)}}.cdk-overlay-transparent-backdrop{transition:visibility 1ms linear,opacity 1ms linear;visibility:hidden;
+opacity:1}.cdk-overlay-transparent-backdrop.cdk-overlay-backdrop-showing,.cdk-high-contrast-active .cdk-overlay-tr
+ansparent-backdrop{opacity:0;visibility:visible}.cdk-overlay-backdrop-noop-animation{transition:none}.cdk-overlay-
+connected-position-bounding-box{position:absolute;display:flex;flex-direction:column;min-width:1px;min-height:1px}
+@layer cdk-overlay{.cdk-overlay-connected-position-bounding-box{z-index:1000}}.cdk-global-scrollblock{position:fix
+ed;width:100%;overflow-y:scroll}\n',
+        type: 'css parsing'
+      }
+
+    [0m [90m 76 |[39m       error[33m:[39m (error) [33m=>[39m {
+     [90m 77 |[39m         console[33m.[39merror([32m'Error loading student:'[39m[33m,[39m 
+error)[33m;[39m
+    [31m[1m>[22m[39m[90m 78 |[39m         [36mthis[39m[33m.[39msnackBar[33m.[39mopen([32m'Erreur 
+lors du chargement de l\'├®tudiant'[39m[33m,[39m [32m'Fermer'[39m[33m,[39m {
+     [90m    |[39m                       [31m[1m^[22m[39m
+     [90m 79 |[39m           duration[33m:[39m [35m3000[39m
+     [90m 80 |[39m         })[33m;[39m
+     [90m 81 |[39m         [36mthis[39m[33m.[39misLoading [33m=[39m [36mfalse[39m[33m;[39m[0m
+
+      at VirtualConsole.<anonymous> (node_modules/jest-environment-jsdom/build/index.js:63:23)
+      at exports.createStylesheet (node_modules/jsdom/lib/jsdom/living/helpers/stylesheets.js:38:63)
+      at HTMLStyleElementImpl._updateAStyleBlock 
+(node_modules/jsdom/lib/jsdom/living/nodes/HTMLStyleElement-impl.js:68:5)
+      at HTMLStyleElementImpl._attach (node_modules/jsdom/lib/jsdom/living/nodes/HTMLStyleElement-impl.js:19:12)
+      at HTMLHeadElementImpl._insert (node_modules/jsdom/lib/jsdom/living/nodes/Node-impl.js:835:14)
+      at HTMLHeadElementImpl._preInsert (node_modules/jsdom/lib/jsdom/living/nodes/Node-impl.js:756:10)
+      at HTMLHeadElementImpl._append (node_modules/jsdom/lib/jsdom/living/nodes/Node-impl.js:862:17)
+      at HTMLHeadElementImpl.appendChild (node_modules/jsdom/lib/jsdom/living/nodes/Node-impl.js:598:17)
+      at HTMLHeadElement.appendChild (node_modules/jsdom/lib/jsdom/living/generated/Node.js:411:60)
+      at _SharedStylesHost.addElement 
+(node_modules/@angular/platform-browser/fesm2022/dom_renderer-DGKzginR.mjs:278:21)
+      at node_modules/@angular/platform-browser/fesm2022/dom_renderer-DGKzginR.mjs:226:62
+          at Array.map (<anonymous>)
+      at _SharedStylesHost.addUsage 
+(node_modules/@angular/platform-browser/fesm2022/dom_renderer-DGKzginR.mjs:226:43)
+      at _SharedStylesHost.addStyles 
+(node_modules/@angular/platform-browser/fesm2022/dom_renderer-DGKzginR.mjs:196:18)
+      at NoneEncapsulationDomRenderer.applyStyles 
+(node_modules/@angular/platform-browser/fesm2022/dom_renderer-DGKzginR.mjs:753:31)
+      at _DomRendererFactory2.createRenderer 
+(node_modules/@angular/platform-browser/fesm2022/dom_renderer-DGKzginR.mjs:418:22)
+      at createComponentLView (node_modules/@angular/core/fesm2022/core.mjs:12237:160)
+      at instantiateAllDirectives (node_modules/@angular/core/fesm2022/core.mjs:12645:9)
+      at createDirectivesInstances (node_modules/@angular/core/fesm2022/core.mjs:12443:5)
+      at ComponentFactory2.create (node_modules/@angular/core/fesm2022/core.mjs:18044:17)
+      at createComponent (node_modules/@angular/core/fesm2022/core.mjs:40526:20)
+      at __CdkPrivateStyleLoader.load (node_modules/@angular/cdk/fesm2022/style-loader-Cu9AvjH9.mjs:35:28)
+      at _Overlay.create (node_modules/@angular/cdk/fesm2022/overlay-module-BUj0D19H.mjs:2516:27)
+      at _MatSnackBar._createOverlay (node_modules/@angular/material/fesm2022/snack-bar.mjs:745:30)
+      at _MatSnackBar._attach (node_modules/@angular/material/fesm2022/snack-bar.mjs:649:33)
+      at _MatSnackBar.openFromComponent (node_modules/@angular/material/fesm2022/snack-bar.mjs:586:21)
+      at _MatSnackBar.open (node_modules/@angular/material/fesm2022/snack-bar.mjs:614:21)
+      at Object.open [as error] (src/app/pages/students/student-form/student-form.component.ts:78:23)
+      at ConsumerObserver.Object.<anonymous>.ConsumerObserver.error 
+(node_modules/rxjs/src/internal/Subscriber.ts:166:25)
+      at SafeSubscriber.Object.<anonymous>.Subscriber._error (node_modules/rxjs/src/internal/Subscriber.ts:118:24)
+      at SafeSubscriber.Object.<anonymous>.Subscriber.error (node_modules/rxjs/src/internal/Subscriber.ts:86:12)
+      at Observable.init [as _subscribe] (node_modules/rxjs/src/internal/observable/throwError.ts:123:62)
+      at Observable.Object.<anonymous>.Observable._trySubscribe 
+(node_modules/rxjs/src/internal/Observable.ts:235:19)
+      at node_modules/rxjs/src/internal/Observable.ts:225:18
+      at Object.errorContext (node_modules/rxjs/src/internal/util/errorContext.ts:29:5)
+      at Observable.Object.<anonymous>.Observable.subscribe (node_modules/rxjs/src/internal/Observable.ts:211:5)
+      at StudentFormComponent.subscribe [as loadStudent] 
+(src/app/pages/students/student-form/student-form.component.ts:64:37)
+      at StudentFormComponent.loadStudent [as ngOnInit] 
+(src/app/pages/students/student-form/student-form.component.ts:58:12)
+      at callHookInternal (node_modules/@angular/core/fesm2022/core.mjs:4225:14)
+      at callHook (node_modules/@angular/core/fesm2022/core.mjs:4252:13)
+      at callHooks (node_modules/@angular/core/fesm2022/core.mjs:4206:17)
+      at executeInitAndCheckHooks (node_modules/@angular/core/fesm2022/core.mjs:4156:9)
+      at refreshView (node_modules/@angular/core/fesm2022/core.mjs:14129:21)
+      at detectChangesInView (node_modules/@angular/core/fesm2022/core.mjs:14334:9)
+      at detectChangesInViewWhileDirty (node_modules/@angular/core/fesm2022/core.mjs:14026:9)
+      at detectChangesInternal (node_modules/@angular/core/fesm2022/core.mjs:14008:9)
+      at ViewRef.detectChanges (node_modules/@angular/core/fesm2022/core.mjs:14865:9)
+      at node_modules/@angular/core/fesm2022/testing.mjs:292:44
+      at _ZoneDelegate.invoke (node_modules/zone.js/bundles/zone.umd.js:410:32)
+      at Object.onInvoke (node_modules/@angular/core/fesm2022/core.mjs:6568:33)
+      at _ZoneDelegate.invoke (node_modules/zone.js/bundles/zone.umd.js:409:38)
+      at ZoneImpl.run (node_modules/zone.js/bundles/zone.umd.js:145:47)
+      at NgZone.run (node_modules/@angular/core/fesm2022/core.mjs:6414:28)
+      at ComponentFixture.detectChanges (node_modules/@angular/core/fesm2022/testing.mjs:289:30)
+      at src/app/pages/students/student-form/student-form.component.spec.ts:193:18
+      at fakeAsyncFn (node_modules/zone.js/bundles/zone-testing.umd.js:1794:30)
+      at _ZoneDelegate.invoke (node_modules/zone.js/bundles/zone.umd.js:410:32)
+      at ProxyZoneSpec.Object.<anonymous>.ProxyZoneSpec.onInvoke 
+(node_modules/zone.js/bundles/zone-testing.umd.js:2219:43)
+      at _ZoneDelegate.invoke (node_modules/zone.js/bundles/zone.umd.js:409:38)
+      at ZoneImpl.run (node_modules/zone.js/bundles/zone.umd.js:145:47)
+      at Object.wrappedFunc (node_modules/zone.js/bundles/zone-testing.umd.js:449:38)
+
+    console.error
+      Error: Could not parse CSS stylesheet
+          at exports.createStylesheet (C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\jsdom\
+lib\jsdom\living\helpers\stylesheets.js:34:21)
+          at HTMLStyleElementImpl._updateAStyleBlock (C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node
+_modules\jsdom\lib\jsdom\living\nodes\HTMLStyleElement-impl.js:68:5)
+          at HTMLStyleElementImpl._attach (C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\js
+dom\lib\jsdom\living\nodes\HTMLStyleElement-impl.js:19:12)
+          at HTMLHeadElementImpl._insert (C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\jsd
+om\lib\jsdom\living\nodes\Node-impl.js:835:14)
+          at HTMLHeadElementImpl._preInsert (C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\
+jsdom\lib\jsdom\living\nodes\Node-impl.js:756:10)
+          at HTMLHeadElementImpl._append (C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\jsd
+om\lib\jsdom\living\nodes\Node-impl.js:862:17)
+          at HTMLHeadElementImpl.appendChild (C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules
+\jsdom\lib\jsdom\living\nodes\Node-impl.js:598:17)
+          at HTMLHeadElement.appendChild (C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\jsd
+om\lib\jsdom\living\generated\Node.js:411:60)
+          at _SharedStylesHost.addElement (C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\@a
+ngular\platform-browser\fesm2022\dom_renderer-DGKzginR.mjs:278:21)
+          at C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\@angular\platform-browser\fesm20
+22\dom_renderer-DGKzginR.mjs:226:62
+          at Array.map (<anonymous>)
+          at _SharedStylesHost.addUsage (C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\@ang
+ular\platform-browser\fesm2022\dom_renderer-DGKzginR.mjs:226:43)
+          at _SharedStylesHost.addStyles (C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\@an
+gular\platform-browser\fesm2022\dom_renderer-DGKzginR.mjs:196:18)
+          at NoneEncapsulationDomRenderer.applyStyles (C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\nod
+e_modules\@angular\platform-browser\fesm2022\dom_renderer-DGKzginR.mjs:753:31)
+          at _DomRendererFactory2.createRenderer (C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_mod
+ules\@angular\platform-browser\fesm2022\dom_renderer-DGKzginR.mjs:418:22)
+          at createComponentLView 
+(C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\@angular\core\fesm2022\core.mjs:12237:160)
+          at instantiateAllDirectives 
+(C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\@angular\core\fesm2022\core.mjs:12645:9)
+          at createDirectivesInstances 
+(C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\@angular\core\fesm2022\core.mjs:12443:5)
+          at ComponentFactory2.create 
+(C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\@angular\core\fesm2022\core.mjs:18044:17)
+          at createComponent 
+(C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\@angular\core\fesm2022\core.mjs:40526:20)
+          at __CdkPrivateStyleLoader.load (C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\@a
+ngular\cdk\fesm2022\style-loader-Cu9AvjH9.mjs:35:28)
+          at _Overlay.create (C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\@angular\cdk\fe
+sm2022\overlay-module-BUj0D19H.mjs:2516:27)
+          at _MatSnackBar._createOverlay (C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\@an
+gular\material\fesm2022\snack-bar.mjs:745:30)
+          at _MatSnackBar._attach (C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\@angular\m
+aterial\fesm2022\snack-bar.mjs:649:33)
+          at _MatSnackBar.openFromComponent (C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\
+@angular\material\fesm2022\snack-bar.mjs:586:21)
+          at _MatSnackBar.open (C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\@angular\mate
+rial\fesm2022\snack-bar.mjs:614:21)
+          at Object.open (C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\src\app\pages\students\student-f
+orm\student-form.component.ts:128:23)
+          at ConsumerObserver.Object.<anonymous>.ConsumerObserver.next 
+(C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\rxjs\src\internal\Subscriber.ts:155:25)
+          at SafeSubscriber.Object.<anonymous>.Subscriber._next 
+(C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\rxjs\src\internal\Subscriber.ts:113:22)
+          at SafeSubscriber.Object.<anonymous>.Subscriber.next 
+(C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\rxjs\src\internal\Subscriber.ts:71:12)
+          at Observable._subscribe (C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\rxjs\src\
+internal\observable\innerFrom.ts:78:18)
+          at Observable.Object.<anonymous>.Observable._trySubscribe 
+(C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\rxjs\src\internal\Observable.ts:235:19)
+          at 
+C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\rxjs\src\internal\Observable.ts:225:18
+          at Object.errorContext 
+(C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\rxjs\src\internal\util\errorContext.ts:29:5)
+          at Observable.Object.<anonymous>.Observable.subscribe 
+(C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\rxjs\src\internal\Observable.ts:211:5)
+          at StudentFormComponent.subscribe [as updateStudent] (C:\Users\the_m\Documents\formation_OC\Projet2\Fron
+t-end\src\app\pages\students\student-form\student-form.component.ts:126:45)
+          at StudentFormComponent.updateStudent [as onSubmit] (C:\Users\the_m\Documents\formation_OC\Projet2\Front
+-end\src\app\pages\students\student-form\student-form.component.ts:99:14)
+          at C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\src\app\pages\students\student-form\student-f
+orm.component.spec.ts:207:17
+          at fakeAsyncFn 
+(C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\zone.js\bundles\zone-testing.umd.js:1794:30)
+          at _ZoneDelegate.invoke 
+(C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\zone.js\bundles\zone.umd.js:410:32)
+          at ProxyZoneSpec.Object.<anonymous>.ProxyZoneSpec.onInvoke 
+(C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\zone.js\bundles\zone-testing.umd.js:2219:43)
+          at _ZoneDelegate.invoke 
+(C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\zone.js\bundles\zone.umd.js:409:38)
+          at ZoneImpl.run 
+(C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\zone.js\bundles\zone.umd.js:145:47)
+          at Object.wrappedFunc 
+(C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\zone.js\bundles\zone-testing.umd.js:449:38)
+          at Promise.then.completed 
+(C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\jest-circus\build\utils.js:298:28)
+          at new Promise (<anonymous>)
+          at callAsyncCircusFn 
+(C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\jest-circus\build\utils.js:231:10)
+          at _callCircusTest 
+(C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\jest-circus\build\run.js:316:40)
+          at processTicksAndRejections (node:internal/process/task_queues:103:5)
+          at _runTest 
+(C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\jest-circus\build\run.js:252:3)
+          at _runTestsForDescribeBlock 
+(C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\jest-circus\build\run.js:126:9)
+          at _runTestsForDescribeBlock 
+(C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\jest-circus\build\run.js:121:9)
+          at _runTestsForDescribeBlock 
+(C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\jest-circus\build\run.js:121:9)
+          at run 
+(C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\jest-circus\build\run.js:71:3)
+          at runAndTransformResultsToJestFormat (C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modu
+les\jest-circus\build\legacy-code-todo-rewrite\jestAdapterInit.js:122:21) {
+        detail: '.cdk-overlay-container,.cdk-global-overlay-wrapper{pointer-events:none;top:0;left:0;height:100%;w
+idth:100%}.cdk-overlay-container{position:fixed}@layer cdk-overlay{.cdk-overlay-container{z-index:1000}}.cdk-overl
+ay-container:empty{display:none}.cdk-global-overlay-wrapper{display:flex;position:absolute}@layer cdk-overlay{.cdk
+-global-overlay-wrapper{z-index:1000}}.cdk-overlay-pane{position:absolute;pointer-events:auto;box-sizing:border-bo
+x;display:flex;max-width:100%;max-height:100%}@layer cdk-overlay{.cdk-overlay-pane{z-index:1000}}.cdk-overlay-back
+drop{position:absolute;top:0;bottom:0;left:0;right:0;pointer-events:auto;-webkit-tap-highlight-color:rgba(0,0,0,0)
+;opacity:0;touch-action:manipulation}@layer cdk-overlay{.cdk-overlay-backdrop{z-index:1000;transition:opacity 
+400ms cubic-bezier(0.25, 0.8, 0.25, 1)}}@media(prefers-reduced-motion){.cdk-overlay-backdrop{transition-duration:1
+ms}}.cdk-overlay-backdrop-showing{opacity:1}@media(forced-colors: 
+active){.cdk-overlay-backdrop-showing{opacity:.6}}@layer cdk-overlay{.cdk-overlay-dark-backdrop{background:rgba(0,
+0,0,.32)}}.cdk-overlay-transparent-backdrop{transition:visibility 1ms linear,opacity 1ms linear;visibility:hidden;
+opacity:1}.cdk-overlay-transparent-backdrop.cdk-overlay-backdrop-showing,.cdk-high-contrast-active .cdk-overlay-tr
+ansparent-backdrop{opacity:0;visibility:visible}.cdk-overlay-backdrop-noop-animation{transition:none}.cdk-overlay-
+connected-position-bounding-box{position:absolute;display:flex;flex-direction:column;min-width:1px;min-height:1px}
+@layer cdk-overlay{.cdk-overlay-connected-position-bounding-box{z-index:1000}}.cdk-global-scrollblock{position:fix
+ed;width:100%;overflow-y:scroll}\n',
+        type: 'css parsing'
+      }
+
+    [0m [90m 126 |[39m     [36mthis[39m[33m.[39mstudentService[33m.[39mupdate(id[33m,[39m 
+student)[33m.[39msubscribe({
+     [90m 127 |[39m       next[33m:[39m () [33m=>[39m {
+    [31m[1m>[22m[39m[90m 128 |[39m         [36mthis[39m[33m.[39msnackBar[33m.[39mopen([32m'├ëtudiant 
+modifi├® avec succ├¿s'[39m[33m,[39m [32m'Fermer'[39m[33m,[39m {
+     [90m     |[39m                       [31m[1m^[22m[39m
+     [90m 129 |[39m           duration[33m:[39m [35m3000[39m
+     [90m 130 |[39m         })[33m;[39m
+     [90m 131 |[39m         
+[36mthis[39m[33m.[39mrouter[33m.[39mnavigate([[32m'/students'[39m])[33m;[39m[0m
+
+      at VirtualConsole.<anonymous> (node_modules/jest-environment-jsdom/build/index.js:63:23)
+      at exports.createStylesheet (node_modules/jsdom/lib/jsdom/living/helpers/stylesheets.js:38:63)
+      at HTMLStyleElementImpl._updateAStyleBlock 
+(node_modules/jsdom/lib/jsdom/living/nodes/HTMLStyleElement-impl.js:68:5)
+      at HTMLStyleElementImpl._attach (node_modules/jsdom/lib/jsdom/living/nodes/HTMLStyleElement-impl.js:19:12)
+      at HTMLHeadElementImpl._insert (node_modules/jsdom/lib/jsdom/living/nodes/Node-impl.js:835:14)
+      at HTMLHeadElementImpl._preInsert (node_modules/jsdom/lib/jsdom/living/nodes/Node-impl.js:756:10)
+      at HTMLHeadElementImpl._append (node_modules/jsdom/lib/jsdom/living/nodes/Node-impl.js:862:17)
+      at HTMLHeadElementImpl.appendChild (node_modules/jsdom/lib/jsdom/living/nodes/Node-impl.js:598:17)
+      at HTMLHeadElement.appendChild (node_modules/jsdom/lib/jsdom/living/generated/Node.js:411:60)
+      at _SharedStylesHost.addElement 
+(node_modules/@angular/platform-browser/fesm2022/dom_renderer-DGKzginR.mjs:278:21)
+      at node_modules/@angular/platform-browser/fesm2022/dom_renderer-DGKzginR.mjs:226:62
+          at Array.map (<anonymous>)
+      at _SharedStylesHost.addUsage 
+(node_modules/@angular/platform-browser/fesm2022/dom_renderer-DGKzginR.mjs:226:43)
+      at _SharedStylesHost.addStyles 
+(node_modules/@angular/platform-browser/fesm2022/dom_renderer-DGKzginR.mjs:196:18)
+      at NoneEncapsulationDomRenderer.applyStyles 
+(node_modules/@angular/platform-browser/fesm2022/dom_renderer-DGKzginR.mjs:753:31)
+      at _DomRendererFactory2.createRenderer 
+(node_modules/@angular/platform-browser/fesm2022/dom_renderer-DGKzginR.mjs:418:22)
+      at createComponentLView (node_modules/@angular/core/fesm2022/core.mjs:12237:160)
+      at instantiateAllDirectives (node_modules/@angular/core/fesm2022/core.mjs:12645:9)
+      at createDirectivesInstances (node_modules/@angular/core/fesm2022/core.mjs:12443:5)
+      at ComponentFactory2.create (node_modules/@angular/core/fesm2022/core.mjs:18044:17)
+      at createComponent (node_modules/@angular/core/fesm2022/core.mjs:40526:20)
+      at __CdkPrivateStyleLoader.load (node_modules/@angular/cdk/fesm2022/style-loader-Cu9AvjH9.mjs:35:28)
+      at _Overlay.create (node_modules/@angular/cdk/fesm2022/overlay-module-BUj0D19H.mjs:2516:27)
+      at _MatSnackBar._createOverlay (node_modules/@angular/material/fesm2022/snack-bar.mjs:745:30)
+      at _MatSnackBar._attach (node_modules/@angular/material/fesm2022/snack-bar.mjs:649:33)
+      at _MatSnackBar.openFromComponent (node_modules/@angular/material/fesm2022/snack-bar.mjs:586:21)
+      at _MatSnackBar.open (node_modules/@angular/material/fesm2022/snack-bar.mjs:614:21)
+      at Object.open (src/app/pages/students/student-form/student-form.component.ts:128:23)
+      at ConsumerObserver.Object.<anonymous>.ConsumerObserver.next 
+(node_modules/rxjs/src/internal/Subscriber.ts:155:25)
+      at SafeSubscriber.Object.<anonymous>.Subscriber._next (node_modules/rxjs/src/internal/Subscriber.ts:113:22)
+      at SafeSubscriber.Object.<anonymous>.Subscriber.next (node_modules/rxjs/src/internal/Subscriber.ts:71:12)
+      at Observable._subscribe (node_modules/rxjs/src/internal/observable/innerFrom.ts:78:18)
+      at Observable.Object.<anonymous>.Observable._trySubscribe 
+(node_modules/rxjs/src/internal/Observable.ts:235:19)
+      at node_modules/rxjs/src/internal/Observable.ts:225:18
+      at Object.errorContext (node_modules/rxjs/src/internal/util/errorContext.ts:29:5)
+      at Observable.Object.<anonymous>.Observable.subscribe (node_modules/rxjs/src/internal/Observable.ts:211:5)
+      at StudentFormComponent.subscribe [as updateStudent] 
+(src/app/pages/students/student-form/student-form.component.ts:126:45)
+      at StudentFormComponent.updateStudent [as onSubmit] 
+(src/app/pages/students/student-form/student-form.component.ts:99:14)
+      at src/app/pages/students/student-form/student-form.component.spec.ts:207:17
+      at fakeAsyncFn (node_modules/zone.js/bundles/zone-testing.umd.js:1794:30)
+      at _ZoneDelegate.invoke (node_modules/zone.js/bundles/zone.umd.js:410:32)
+      at ProxyZoneSpec.Object.<anonymous>.ProxyZoneSpec.onInvoke 
+(node_modules/zone.js/bundles/zone-testing.umd.js:2219:43)
+      at _ZoneDelegate.invoke (node_modules/zone.js/bundles/zone.umd.js:409:38)
+      at ZoneImpl.run (node_modules/zone.js/bundles/zone.umd.js:145:47)
+      at Object.wrappedFunc (node_modules/zone.js/bundles/zone-testing.umd.js:449:38)
+
+    console.error
+      Error: Could not parse CSS stylesheet
+          at exports.createStylesheet (C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\jsdom\
+lib\jsdom\living\helpers\stylesheets.js:34:21)
+          at HTMLStyleElementImpl._updateAStyleBlock (C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node
+_modules\jsdom\lib\jsdom\living\nodes\HTMLStyleElement-impl.js:68:5)
+          at HTMLStyleElementImpl._attach (C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\js
+dom\lib\jsdom\living\nodes\HTMLStyleElement-impl.js:19:12)
+          at HTMLHeadElementImpl._insert (C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\jsd
+om\lib\jsdom\living\nodes\Node-impl.js:835:14)
+          at HTMLHeadElementImpl._preInsert (C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\
+jsdom\lib\jsdom\living\nodes\Node-impl.js:756:10)
+          at HTMLHeadElementImpl._append (C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\jsd
+om\lib\jsdom\living\nodes\Node-impl.js:862:17)
+          at HTMLHeadElementImpl.appendChild (C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules
+\jsdom\lib\jsdom\living\nodes\Node-impl.js:598:17)
+          at HTMLHeadElement.appendChild (C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\jsd
+om\lib\jsdom\living\generated\Node.js:411:60)
+          at _SharedStylesHost.addElement (C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\@a
+ngular\platform-browser\fesm2022\dom_renderer-DGKzginR.mjs:278:21)
+          at C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\@angular\platform-browser\fesm20
+22\dom_renderer-DGKzginR.mjs:226:62
+          at Array.map (<anonymous>)
+          at _SharedStylesHost.addUsage (C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\@ang
+ular\platform-browser\fesm2022\dom_renderer-DGKzginR.mjs:226:43)
+          at _SharedStylesHost.addStyles (C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\@an
+gular\platform-browser\fesm2022\dom_renderer-DGKzginR.mjs:196:18)
+          at NoneEncapsulationDomRenderer.applyStyles (C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\nod
+e_modules\@angular\platform-browser\fesm2022\dom_renderer-DGKzginR.mjs:753:31)
+          at _DomRendererFactory2.createRenderer (C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_mod
+ules\@angular\platform-browser\fesm2022\dom_renderer-DGKzginR.mjs:418:22)
+          at createComponentLView 
+(C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\@angular\core\fesm2022\core.mjs:12237:160)
+          at instantiateAllDirectives 
+(C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\@angular\core\fesm2022\core.mjs:12645:9)
+          at createDirectivesInstances 
+(C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\@angular\core\fesm2022\core.mjs:12443:5)
+          at ComponentFactory2.create 
+(C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\@angular\core\fesm2022\core.mjs:18044:17)
+          at createComponent 
+(C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\@angular\core\fesm2022\core.mjs:40526:20)
+          at __CdkPrivateStyleLoader.load (C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\@a
+ngular\cdk\fesm2022\style-loader-Cu9AvjH9.mjs:35:28)
+          at _Overlay.create (C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\@angular\cdk\fe
+sm2022\overlay-module-BUj0D19H.mjs:2516:27)
+          at _MatSnackBar._createOverlay (C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\@an
+gular\material\fesm2022\snack-bar.mjs:745:30)
+          at _MatSnackBar._attach (C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\@angular\m
+aterial\fesm2022\snack-bar.mjs:649:33)
+          at _MatSnackBar.openFromComponent (C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\
+@angular\material\fesm2022\snack-bar.mjs:586:21)
+          at _MatSnackBar.open (C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\@angular\mate
+rial\fesm2022\snack-bar.mjs:614:21)
+          at Object.open (C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\src\app\pages\students\student-f
+orm\student-form.component.ts:128:23)
+          at ConsumerObserver.Object.<anonymous>.ConsumerObserver.next 
+(C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\rxjs\src\internal\Subscriber.ts:155:25)
+          at SafeSubscriber.Object.<anonymous>.Subscriber._next 
+(C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\rxjs\src\internal\Subscriber.ts:113:22)
+          at SafeSubscriber.Object.<anonymous>.Subscriber.next 
+(C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\rxjs\src\internal\Subscriber.ts:71:12)
+          at Observable._subscribe (C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\rxjs\src\
+internal\observable\innerFrom.ts:78:18)
+          at Observable.Object.<anonymous>.Observable._trySubscribe 
+(C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\rxjs\src\internal\Observable.ts:235:19)
+          at 
+C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\rxjs\src\internal\Observable.ts:225:18
+          at Object.errorContext 
+(C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\rxjs\src\internal\util\errorContext.ts:29:5)
+          at Observable.Object.<anonymous>.Observable.subscribe 
+(C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\rxjs\src\internal\Observable.ts:211:5)
+          at StudentFormComponent.subscribe [as updateStudent] (C:\Users\the_m\Documents\formation_OC\Projet2\Fron
+t-end\src\app\pages\students\student-form\student-form.component.ts:126:45)
+          at StudentFormComponent.updateStudent [as onSubmit] (C:\Users\the_m\Documents\formation_OC\Projet2\Front
+-end\src\app\pages\students\student-form\student-form.component.ts:99:14)
+          at C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\src\app\pages\students\student-form\student-f
+orm.component.spec.ts:220:17
+          at fakeAsyncFn 
+(C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\zone.js\bundles\zone-testing.umd.js:1794:30)
+          at _ZoneDelegate.invoke 
+(C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\zone.js\bundles\zone.umd.js:410:32)
+          at ProxyZoneSpec.Object.<anonymous>.ProxyZoneSpec.onInvoke 
+(C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\zone.js\bundles\zone-testing.umd.js:2219:43)
+          at _ZoneDelegate.invoke 
+(C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\zone.js\bundles\zone.umd.js:409:38)
+          at ZoneImpl.run 
+(C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\zone.js\bundles\zone.umd.js:145:47)
+          at Object.wrappedFunc 
+(C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\zone.js\bundles\zone-testing.umd.js:449:38)
+          at Promise.then.completed 
+(C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\jest-circus\build\utils.js:298:28)
+          at new Promise (<anonymous>)
+          at callAsyncCircusFn 
+(C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\jest-circus\build\utils.js:231:10)
+          at _callCircusTest 
+(C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\jest-circus\build\run.js:316:40)
+          at processTicksAndRejections (node:internal/process/task_queues:103:5)
+          at _runTest 
+(C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\jest-circus\build\run.js:252:3)
+          at _runTestsForDescribeBlock 
+(C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\jest-circus\build\run.js:126:9)
+          at _runTestsForDescribeBlock 
+(C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\jest-circus\build\run.js:121:9)
+          at _runTestsForDescribeBlock 
+(C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\jest-circus\build\run.js:121:9)
+          at run 
+(C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\jest-circus\build\run.js:71:3)
+          at runAndTransformResultsToJestFormat (C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modu
+les\jest-circus\build\legacy-code-todo-rewrite\jestAdapterInit.js:122:21) {
+        detail: '.cdk-overlay-container,.cdk-global-overlay-wrapper{pointer-events:none;top:0;left:0;height:100%;w
+idth:100%}.cdk-overlay-container{position:fixed}@layer cdk-overlay{.cdk-overlay-container{z-index:1000}}.cdk-overl
+ay-container:empty{display:none}.cdk-global-overlay-wrapper{display:flex;position:absolute}@layer cdk-overlay{.cdk
+-global-overlay-wrapper{z-index:1000}}.cdk-overlay-pane{position:absolute;pointer-events:auto;box-sizing:border-bo
+x;display:flex;max-width:100%;max-height:100%}@layer cdk-overlay{.cdk-overlay-pane{z-index:1000}}.cdk-overlay-back
+drop{position:absolute;top:0;bottom:0;left:0;right:0;pointer-events:auto;-webkit-tap-highlight-color:rgba(0,0,0,0)
+;opacity:0;touch-action:manipulation}@layer cdk-overlay{.cdk-overlay-backdrop{z-index:1000;transition:opacity 
+400ms cubic-bezier(0.25, 0.8, 0.25, 1)}}@media(prefers-reduced-motion){.cdk-overlay-backdrop{transition-duration:1
+ms}}.cdk-overlay-backdrop-showing{opacity:1}@media(forced-colors: 
+active){.cdk-overlay-backdrop-showing{opacity:.6}}@layer cdk-overlay{.cdk-overlay-dark-backdrop{background:rgba(0,
+0,0,.32)}}.cdk-overlay-transparent-backdrop{transition:visibility 1ms linear,opacity 1ms linear;visibility:hidden;
+opacity:1}.cdk-overlay-transparent-backdrop.cdk-overlay-backdrop-showing,.cdk-high-contrast-active .cdk-overlay-tr
+ansparent-backdrop{opacity:0;visibility:visible}.cdk-overlay-backdrop-noop-animation{transition:none}.cdk-overlay-
+connected-position-bounding-box{position:absolute;display:flex;flex-direction:column;min-width:1px;min-height:1px}
+@layer cdk-overlay{.cdk-overlay-connected-position-bounding-box{z-index:1000}}.cdk-global-scrollblock{position:fix
+ed;width:100%;overflow-y:scroll}\n',
+        type: 'css parsing'
+      }
+
+    [0m [90m 126 |[39m     [36mthis[39m[33m.[39mstudentService[33m.[39mupdate(id[33m,[39m 
+student)[33m.[39msubscribe({
+     [90m 127 |[39m       next[33m:[39m () [33m=>[39m {
+    [31m[1m>[22m[39m[90m 128 |[39m         [36mthis[39m[33m.[39msnackBar[33m.[39mopen([32m'├ëtudiant 
+modifi├® avec succ├¿s'[39m[33m,[39m [32m'Fermer'[39m[33m,[39m {
+     [90m     |[39m                       [31m[1m^[22m[39m
+     [90m 129 |[39m           duration[33m:[39m [35m3000[39m
+     [90m 130 |[39m         })[33m;[39m
+     [90m 131 |[39m         
+[36mthis[39m[33m.[39mrouter[33m.[39mnavigate([[32m'/students'[39m])[33m;[39m[0m
+
+      at VirtualConsole.<anonymous> (node_modules/jest-environment-jsdom/build/index.js:63:23)
+      at exports.createStylesheet (node_modules/jsdom/lib/jsdom/living/helpers/stylesheets.js:38:63)
+      at HTMLStyleElementImpl._updateAStyleBlock 
+(node_modules/jsdom/lib/jsdom/living/nodes/HTMLStyleElement-impl.js:68:5)
+      at HTMLStyleElementImpl._attach (node_modules/jsdom/lib/jsdom/living/nodes/HTMLStyleElement-impl.js:19:12)
+      at HTMLHeadElementImpl._insert (node_modules/jsdom/lib/jsdom/living/nodes/Node-impl.js:835:14)
+      at HTMLHeadElementImpl._preInsert (node_modules/jsdom/lib/jsdom/living/nodes/Node-impl.js:756:10)
+      at HTMLHeadElementImpl._append (node_modules/jsdom/lib/jsdom/living/nodes/Node-impl.js:862:17)
+      at HTMLHeadElementImpl.appendChild (node_modules/jsdom/lib/jsdom/living/nodes/Node-impl.js:598:17)
+      at HTMLHeadElement.appendChild (node_modules/jsdom/lib/jsdom/living/generated/Node.js:411:60)
+      at _SharedStylesHost.addElement 
+(node_modules/@angular/platform-browser/fesm2022/dom_renderer-DGKzginR.mjs:278:21)
+      at node_modules/@angular/platform-browser/fesm2022/dom_renderer-DGKzginR.mjs:226:62
+          at Array.map (<anonymous>)
+      at _SharedStylesHost.addUsage 
+(node_modules/@angular/platform-browser/fesm2022/dom_renderer-DGKzginR.mjs:226:43)
+      at _SharedStylesHost.addStyles 
+(node_modules/@angular/platform-browser/fesm2022/dom_renderer-DGKzginR.mjs:196:18)
+      at NoneEncapsulationDomRenderer.applyStyles 
+(node_modules/@angular/platform-browser/fesm2022/dom_renderer-DGKzginR.mjs:753:31)
+      at _DomRendererFactory2.createRenderer 
+(node_modules/@angular/platform-browser/fesm2022/dom_renderer-DGKzginR.mjs:418:22)
+      at createComponentLView (node_modules/@angular/core/fesm2022/core.mjs:12237:160)
+      at instantiateAllDirectives (node_modules/@angular/core/fesm2022/core.mjs:12645:9)
+      at createDirectivesInstances (node_modules/@angular/core/fesm2022/core.mjs:12443:5)
+      at ComponentFactory2.create (node_modules/@angular/core/fesm2022/core.mjs:18044:17)
+      at createComponent (node_modules/@angular/core/fesm2022/core.mjs:40526:20)
+      at __CdkPrivateStyleLoader.load (node_modules/@angular/cdk/fesm2022/style-loader-Cu9AvjH9.mjs:35:28)
+      at _Overlay.create (node_modules/@angular/cdk/fesm2022/overlay-module-BUj0D19H.mjs:2516:27)
+      at _MatSnackBar._createOverlay (node_modules/@angular/material/fesm2022/snack-bar.mjs:745:30)
+      at _MatSnackBar._attach (node_modules/@angular/material/fesm2022/snack-bar.mjs:649:33)
+      at _MatSnackBar.openFromComponent (node_modules/@angular/material/fesm2022/snack-bar.mjs:586:21)
+      at _MatSnackBar.open (node_modules/@angular/material/fesm2022/snack-bar.mjs:614:21)
+      at Object.open (src/app/pages/students/student-form/student-form.component.ts:128:23)
+      at ConsumerObserver.Object.<anonymous>.ConsumerObserver.next 
+(node_modules/rxjs/src/internal/Subscriber.ts:155:25)
+      at SafeSubscriber.Object.<anonymous>.Subscriber._next (node_modules/rxjs/src/internal/Subscriber.ts:113:22)
+      at SafeSubscriber.Object.<anonymous>.Subscriber.next (node_modules/rxjs/src/internal/Subscriber.ts:71:12)
+      at Observable._subscribe (node_modules/rxjs/src/internal/observable/innerFrom.ts:78:18)
+      at Observable.Object.<anonymous>.Observable._trySubscribe 
+(node_modules/rxjs/src/internal/Observable.ts:235:19)
+      at node_modules/rxjs/src/internal/Observable.ts:225:18
+      at Object.errorContext (node_modules/rxjs/src/internal/util/errorContext.ts:29:5)
+      at Observable.Object.<anonymous>.Observable.subscribe (node_modules/rxjs/src/internal/Observable.ts:211:5)
+      at StudentFormComponent.subscribe [as updateStudent] 
+(src/app/pages/students/student-form/student-form.component.ts:126:45)
+      at StudentFormComponent.updateStudent [as onSubmit] 
+(src/app/pages/students/student-form/student-form.component.ts:99:14)
+      at src/app/pages/students/student-form/student-form.component.spec.ts:220:17
+      at fakeAsyncFn (node_modules/zone.js/bundles/zone-testing.umd.js:1794:30)
+      at _ZoneDelegate.invoke (node_modules/zone.js/bundles/zone.umd.js:410:32)
+      at ProxyZoneSpec.Object.<anonymous>.ProxyZoneSpec.onInvoke 
+(node_modules/zone.js/bundles/zone-testing.umd.js:2219:43)
+      at _ZoneDelegate.invoke (node_modules/zone.js/bundles/zone.umd.js:409:38)
+      at ZoneImpl.run (node_modules/zone.js/bundles/zone.umd.js:145:47)
+      at Object.wrappedFunc (node_modules/zone.js/bundles/zone-testing.umd.js:449:38)
+
+    console.error
+      Error updating student: { error: 'Update failed' }
+
+    [0m [90m 132 |[39m       }[33m,[39m
+     [90m 133 |[39m       error[33m:[39m (error) [33m=>[39m {
+    [31m[1m>[22m[39m[90m 134 |[39m         console[33m.[39merror([32m'Error updating 
+student:'[39m[33m,[39m error)[33m;[39m
+     [90m     |[39m                 [31m[1m^[22m[39m
+     [90m 135 |[39m         [36mconst[39m message [33m=[39m error[33m.[39merror [33m||[39m [32m'Erreur 
+lors de la modification'[39m[33m;[39m
+     [90m 136 |[39m         [36mthis[39m[33m.[39msnackBar[33m.[39mopen(message[33m,[39m 
+[32m'Fermer'[39m[33m,[39m {
+     [90m 137 |[39m           duration[33m:[39m [35m3000[39m[0m
+
+      at Object.error (src/app/pages/students/student-form/student-form.component.ts:134:17)
+      at ConsumerObserver.Object.<anonymous>.ConsumerObserver.error 
+(node_modules/rxjs/src/internal/Subscriber.ts:166:25)
+      at SafeSubscriber.Object.<anonymous>.Subscriber._error (node_modules/rxjs/src/internal/Subscriber.ts:118:24)
+      at SafeSubscriber.Object.<anonymous>.Subscriber.error (node_modules/rxjs/src/internal/Subscriber.ts:86:12)
+      at Observable.init [as _subscribe] (node_modules/rxjs/src/internal/observable/throwError.ts:123:62)
+      at Observable.Object.<anonymous>.Observable._trySubscribe 
+(node_modules/rxjs/src/internal/Observable.ts:235:19)
+      at node_modules/rxjs/src/internal/Observable.ts:225:18
+      at Object.errorContext (node_modules/rxjs/src/internal/util/errorContext.ts:29:5)
+      at Observable.Object.<anonymous>.Observable.subscribe (node_modules/rxjs/src/internal/Observable.ts:211:5)
+      at StudentFormComponent.subscribe [as updateStudent] 
+(src/app/pages/students/student-form/student-form.component.ts:126:45)
+      at StudentFormComponent.updateStudent [as onSubmit] 
+(src/app/pages/students/student-form/student-form.component.ts:99:14)
+      at src/app/pages/students/student-form/student-form.component.spec.ts:230:17
+      at fakeAsyncFn (node_modules/zone.js/bundles/zone-testing.umd.js:1794:30)
+      at _ZoneDelegate.invoke (node_modules/zone.js/bundles/zone.umd.js:410:32)
+      at ProxyZoneSpec.Object.<anonymous>.ProxyZoneSpec.onInvoke 
+(node_modules/zone.js/bundles/zone-testing.umd.js:2219:43)
+      at _ZoneDelegate.invoke (node_modules/zone.js/bundles/zone.umd.js:409:38)
+      at ZoneImpl.run (node_modules/zone.js/bundles/zone.umd.js:145:47)
+      at Object.wrappedFunc (node_modules/zone.js/bundles/zone-testing.umd.js:449:38)
+
+    console.error
+      Error: Could not parse CSS stylesheet
+          at exports.createStylesheet (C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\jsdom\
+lib\jsdom\living\helpers\stylesheets.js:34:21)
+          at HTMLStyleElementImpl._updateAStyleBlock (C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node
+_modules\jsdom\lib\jsdom\living\nodes\HTMLStyleElement-impl.js:68:5)
+          at HTMLStyleElementImpl._attach (C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\js
+dom\lib\jsdom\living\nodes\HTMLStyleElement-impl.js:19:12)
+          at HTMLHeadElementImpl._insert (C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\jsd
+om\lib\jsdom\living\nodes\Node-impl.js:835:14)
+          at HTMLHeadElementImpl._preInsert (C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\
+jsdom\lib\jsdom\living\nodes\Node-impl.js:756:10)
+          at HTMLHeadElementImpl._append (C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\jsd
+om\lib\jsdom\living\nodes\Node-impl.js:862:17)
+          at HTMLHeadElementImpl.appendChild (C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules
+\jsdom\lib\jsdom\living\nodes\Node-impl.js:598:17)
+          at HTMLHeadElement.appendChild (C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\jsd
+om\lib\jsdom\living\generated\Node.js:411:60)
+          at _SharedStylesHost.addElement (C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\@a
+ngular\platform-browser\fesm2022\dom_renderer-DGKzginR.mjs:278:21)
+          at C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\@angular\platform-browser\fesm20
+22\dom_renderer-DGKzginR.mjs:226:62
+          at Array.map (<anonymous>)
+          at _SharedStylesHost.addUsage (C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\@ang
+ular\platform-browser\fesm2022\dom_renderer-DGKzginR.mjs:226:43)
+          at _SharedStylesHost.addStyles (C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\@an
+gular\platform-browser\fesm2022\dom_renderer-DGKzginR.mjs:196:18)
+          at NoneEncapsulationDomRenderer.applyStyles (C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\nod
+e_modules\@angular\platform-browser\fesm2022\dom_renderer-DGKzginR.mjs:753:31)
+          at _DomRendererFactory2.createRenderer (C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_mod
+ules\@angular\platform-browser\fesm2022\dom_renderer-DGKzginR.mjs:418:22)
+          at createComponentLView 
+(C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\@angular\core\fesm2022\core.mjs:12237:160)
+          at instantiateAllDirectives 
+(C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\@angular\core\fesm2022\core.mjs:12645:9)
+          at createDirectivesInstances 
+(C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\@angular\core\fesm2022\core.mjs:12443:5)
+          at ComponentFactory2.create 
+(C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\@angular\core\fesm2022\core.mjs:18044:17)
+          at createComponent 
+(C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\@angular\core\fesm2022\core.mjs:40526:20)
+          at __CdkPrivateStyleLoader.load (C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\@a
+ngular\cdk\fesm2022\style-loader-Cu9AvjH9.mjs:35:28)
+          at _Overlay.create (C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\@angular\cdk\fe
+sm2022\overlay-module-BUj0D19H.mjs:2516:27)
+          at _MatSnackBar._createOverlay (C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\@an
+gular\material\fesm2022\snack-bar.mjs:745:30)
+          at _MatSnackBar._attach (C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\@angular\m
+aterial\fesm2022\snack-bar.mjs:649:33)
+          at _MatSnackBar.openFromComponent (C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\
+@angular\material\fesm2022\snack-bar.mjs:586:21)
+          at _MatSnackBar.open (C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\@angular\mate
+rial\fesm2022\snack-bar.mjs:614:21)
+          at Object.open [as error] (C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\src\app\pages\student
+s\student-form\student-form.component.ts:136:23)
+          at ConsumerObserver.Object.<anonymous>.ConsumerObserver.error 
+(C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\rxjs\src\internal\Subscriber.ts:166:25)
+          at SafeSubscriber.Object.<anonymous>.Subscriber._error 
+(C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\rxjs\src\internal\Subscriber.ts:118:24)
+          at SafeSubscriber.Object.<anonymous>.Subscriber.error 
+(C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\rxjs\src\internal\Subscriber.ts:86:12)
+          at Observable.init [as _subscribe] (C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules
+\rxjs\src\internal\observable\throwError.ts:123:62)
+          at Observable.Object.<anonymous>.Observable._trySubscribe 
+(C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\rxjs\src\internal\Observable.ts:235:19)
+          at 
+C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\rxjs\src\internal\Observable.ts:225:18
+          at Object.errorContext 
+(C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\rxjs\src\internal\util\errorContext.ts:29:5)
+          at Observable.Object.<anonymous>.Observable.subscribe 
+(C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\rxjs\src\internal\Observable.ts:211:5)
+          at StudentFormComponent.subscribe [as updateStudent] (C:\Users\the_m\Documents\formation_OC\Projet2\Fron
+t-end\src\app\pages\students\student-form\student-form.component.ts:126:45)
+          at StudentFormComponent.updateStudent [as onSubmit] (C:\Users\the_m\Documents\formation_OC\Projet2\Front
+-end\src\app\pages\students\student-form\student-form.component.ts:99:14)
+          at C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\src\app\pages\students\student-form\student-f
+orm.component.spec.ts:230:17
+          at fakeAsyncFn 
+(C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\zone.js\bundles\zone-testing.umd.js:1794:30)
+          at _ZoneDelegate.invoke 
+(C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\zone.js\bundles\zone.umd.js:410:32)
+          at ProxyZoneSpec.Object.<anonymous>.ProxyZoneSpec.onInvoke 
+(C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\zone.js\bundles\zone-testing.umd.js:2219:43)
+          at _ZoneDelegate.invoke 
+(C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\zone.js\bundles\zone.umd.js:409:38)
+          at ZoneImpl.run 
+(C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\zone.js\bundles\zone.umd.js:145:47)
+          at Object.wrappedFunc 
+(C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\zone.js\bundles\zone-testing.umd.js:449:38)
+          at Promise.then.completed 
+(C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\jest-circus\build\utils.js:298:28)
+          at new Promise (<anonymous>)
+          at callAsyncCircusFn 
+(C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\jest-circus\build\utils.js:231:10)
+          at _callCircusTest 
+(C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\jest-circus\build\run.js:316:40)
+          at processTicksAndRejections (node:internal/process/task_queues:103:5)
+          at _runTest 
+(C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\jest-circus\build\run.js:252:3)
+          at _runTestsForDescribeBlock 
+(C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\jest-circus\build\run.js:126:9)
+          at _runTestsForDescribeBlock 
+(C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\jest-circus\build\run.js:121:9)
+          at _runTestsForDescribeBlock 
+(C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\jest-circus\build\run.js:121:9)
+          at run 
+(C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\jest-circus\build\run.js:71:3)
+          at runAndTransformResultsToJestFormat (C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modu
+les\jest-circus\build\legacy-code-todo-rewrite\jestAdapterInit.js:122:21) {
+        detail: '.cdk-overlay-container,.cdk-global-overlay-wrapper{pointer-events:none;top:0;left:0;height:100%;w
+idth:100%}.cdk-overlay-container{position:fixed}@layer cdk-overlay{.cdk-overlay-container{z-index:1000}}.cdk-overl
+ay-container:empty{display:none}.cdk-global-overlay-wrapper{display:flex;position:absolute}@layer cdk-overlay{.cdk
+-global-overlay-wrapper{z-index:1000}}.cdk-overlay-pane{position:absolute;pointer-events:auto;box-sizing:border-bo
+x;display:flex;max-width:100%;max-height:100%}@layer cdk-overlay{.cdk-overlay-pane{z-index:1000}}.cdk-overlay-back
+drop{position:absolute;top:0;bottom:0;left:0;right:0;pointer-events:auto;-webkit-tap-highlight-color:rgba(0,0,0,0)
+;opacity:0;touch-action:manipulation}@layer cdk-overlay{.cdk-overlay-backdrop{z-index:1000;transition:opacity 
+400ms cubic-bezier(0.25, 0.8, 0.25, 1)}}@media(prefers-reduced-motion){.cdk-overlay-backdrop{transition-duration:1
+ms}}.cdk-overlay-backdrop-showing{opacity:1}@media(forced-colors: 
+active){.cdk-overlay-backdrop-showing{opacity:.6}}@layer cdk-overlay{.cdk-overlay-dark-backdrop{background:rgba(0,
+0,0,.32)}}.cdk-overlay-transparent-backdrop{transition:visibility 1ms linear,opacity 1ms linear;visibility:hidden;
+opacity:1}.cdk-overlay-transparent-backdrop.cdk-overlay-backdrop-showing,.cdk-high-contrast-active .cdk-overlay-tr
+ansparent-backdrop{opacity:0;visibility:visible}.cdk-overlay-backdrop-noop-animation{transition:none}.cdk-overlay-
+connected-position-bounding-box{position:absolute;display:flex;flex-direction:column;min-width:1px;min-height:1px}
+@layer cdk-overlay{.cdk-overlay-connected-position-bounding-box{z-index:1000}}.cdk-global-scrollblock{position:fix
+ed;width:100%;overflow-y:scroll}\n',
+        type: 'css parsing'
+      }
+
+    [0m [90m 134 |[39m         console[33m.[39merror([32m'Error updating student:'[39m[33m,[39m 
+error)[33m;[39m
+     [90m 135 |[39m         [36mconst[39m message [33m=[39m error[33m.[39merror [33m||[39m [32m'Erreur 
+lors de la modification'[39m[33m;[39m
+    [31m[1m>[22m[39m[90m 136 |[39m         
+[36mthis[39m[33m.[39msnackBar[33m.[39mopen(message[33m,[39m [32m'Fermer'[39m[33m,[39m {
+     [90m     |[39m                       [31m[1m^[22m[39m
+     [90m 137 |[39m           duration[33m:[39m [35m3000[39m
+     [90m 138 |[39m         })[33m;[39m
+     [90m 139 |[39m         [36mthis[39m[33m.[39misLoading [33m=[39m [36mfalse[39m[33m;[39m[0m
+
+      at VirtualConsole.<anonymous> (node_modules/jest-environment-jsdom/build/index.js:63:23)
+      at exports.createStylesheet (node_modules/jsdom/lib/jsdom/living/helpers/stylesheets.js:38:63)
+      at HTMLStyleElementImpl._updateAStyleBlock 
+(node_modules/jsdom/lib/jsdom/living/nodes/HTMLStyleElement-impl.js:68:5)
+      at HTMLStyleElementImpl._attach (node_modules/jsdom/lib/jsdom/living/nodes/HTMLStyleElement-impl.js:19:12)
+      at HTMLHeadElementImpl._insert (node_modules/jsdom/lib/jsdom/living/nodes/Node-impl.js:835:14)
+      at HTMLHeadElementImpl._preInsert (node_modules/jsdom/lib/jsdom/living/nodes/Node-impl.js:756:10)
+      at HTMLHeadElementImpl._append (node_modules/jsdom/lib/jsdom/living/nodes/Node-impl.js:862:17)
+      at HTMLHeadElementImpl.appendChild (node_modules/jsdom/lib/jsdom/living/nodes/Node-impl.js:598:17)
+      at HTMLHeadElement.appendChild (node_modules/jsdom/lib/jsdom/living/generated/Node.js:411:60)
+      at _SharedStylesHost.addElement 
+(node_modules/@angular/platform-browser/fesm2022/dom_renderer-DGKzginR.mjs:278:21)
+      at node_modules/@angular/platform-browser/fesm2022/dom_renderer-DGKzginR.mjs:226:62
+          at Array.map (<anonymous>)
+      at _SharedStylesHost.addUsage 
+(node_modules/@angular/platform-browser/fesm2022/dom_renderer-DGKzginR.mjs:226:43)
+      at _SharedStylesHost.addStyles 
+(node_modules/@angular/platform-browser/fesm2022/dom_renderer-DGKzginR.mjs:196:18)
+      at NoneEncapsulationDomRenderer.applyStyles 
+(node_modules/@angular/platform-browser/fesm2022/dom_renderer-DGKzginR.mjs:753:31)
+      at _DomRendererFactory2.createRenderer 
+(node_modules/@angular/platform-browser/fesm2022/dom_renderer-DGKzginR.mjs:418:22)
+      at createComponentLView (node_modules/@angular/core/fesm2022/core.mjs:12237:160)
+      at instantiateAllDirectives (node_modules/@angular/core/fesm2022/core.mjs:12645:9)
+      at createDirectivesInstances (node_modules/@angular/core/fesm2022/core.mjs:12443:5)
+      at ComponentFactory2.create (node_modules/@angular/core/fesm2022/core.mjs:18044:17)
+      at createComponent (node_modules/@angular/core/fesm2022/core.mjs:40526:20)
+      at __CdkPrivateStyleLoader.load (node_modules/@angular/cdk/fesm2022/style-loader-Cu9AvjH9.mjs:35:28)
+      at _Overlay.create (node_modules/@angular/cdk/fesm2022/overlay-module-BUj0D19H.mjs:2516:27)
+      at _MatSnackBar._createOverlay (node_modules/@angular/material/fesm2022/snack-bar.mjs:745:30)
+      at _MatSnackBar._attach (node_modules/@angular/material/fesm2022/snack-bar.mjs:649:33)
+      at _MatSnackBar.openFromComponent (node_modules/@angular/material/fesm2022/snack-bar.mjs:586:21)
+      at _MatSnackBar.open (node_modules/@angular/material/fesm2022/snack-bar.mjs:614:21)
+      at Object.open [as error] (src/app/pages/students/student-form/student-form.component.ts:136:23)
+      at ConsumerObserver.Object.<anonymous>.ConsumerObserver.error 
+(node_modules/rxjs/src/internal/Subscriber.ts:166:25)
+      at SafeSubscriber.Object.<anonymous>.Subscriber._error (node_modules/rxjs/src/internal/Subscriber.ts:118:24)
+      at SafeSubscriber.Object.<anonymous>.Subscriber.error (node_modules/rxjs/src/internal/Subscriber.ts:86:12)
+      at Observable.init [as _subscribe] (node_modules/rxjs/src/internal/observable/throwError.ts:123:62)
+      at Observable.Object.<anonymous>.Observable._trySubscribe 
+(node_modules/rxjs/src/internal/Observable.ts:235:19)
+      at node_modules/rxjs/src/internal/Observable.ts:225:18
+      at Object.errorContext (node_modules/rxjs/src/internal/util/errorContext.ts:29:5)
+      at Observable.Object.<anonymous>.Observable.subscribe (node_modules/rxjs/src/internal/Observable.ts:211:5)
+      at StudentFormComponent.subscribe [as updateStudent] 
+(src/app/pages/students/student-form/student-form.component.ts:126:45)
+      at StudentFormComponent.updateStudent [as onSubmit] 
+(src/app/pages/students/student-form/student-form.component.ts:99:14)
+      at src/app/pages/students/student-form/student-form.component.spec.ts:230:17
+      at fakeAsyncFn (node_modules/zone.js/bundles/zone-testing.umd.js:1794:30)
+      at _ZoneDelegate.invoke (node_modules/zone.js/bundles/zone.umd.js:410:32)
+      at ProxyZoneSpec.Object.<anonymous>.ProxyZoneSpec.onInvoke 
+(node_modules/zone.js/bundles/zone-testing.umd.js:2219:43)
+      at _ZoneDelegate.invoke (node_modules/zone.js/bundles/zone.umd.js:409:38)
+      at ZoneImpl.run (node_modules/zone.js/bundles/zone.umd.js:145:47)
+      at Object.wrappedFunc (node_modules/zone.js/bundles/zone-testing.umd.js:449:38)
+
+    console.error
+      Error: Could not parse CSS stylesheet
+          at exports.createStylesheet (C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\jsdom\
+lib\jsdom\living\helpers\stylesheets.js:34:21)
+          at HTMLStyleElementImpl._updateAStyleBlock (C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node
+_modules\jsdom\lib\jsdom\living\nodes\HTMLStyleElement-impl.js:68:5)
+          at HTMLStyleElementImpl._attach (C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\js
+dom\lib\jsdom\living\nodes\HTMLStyleElement-impl.js:19:12)
+          at HTMLHeadElementImpl._insert (C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\jsd
+om\lib\jsdom\living\nodes\Node-impl.js:835:14)
+          at HTMLHeadElementImpl._preInsert (C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\
+jsdom\lib\jsdom\living\nodes\Node-impl.js:756:10)
+          at HTMLHeadElementImpl._append (C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\jsd
+om\lib\jsdom\living\nodes\Node-impl.js:862:17)
+          at HTMLHeadElementImpl.appendChild (C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules
+\jsdom\lib\jsdom\living\nodes\Node-impl.js:598:17)
+          at HTMLHeadElement.appendChild (C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\jsd
+om\lib\jsdom\living\generated\Node.js:411:60)
+          at _SharedStylesHost.addElement (C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\@a
+ngular\platform-browser\fesm2022\dom_renderer-DGKzginR.mjs:278:21)
+          at C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\@angular\platform-browser\fesm20
+22\dom_renderer-DGKzginR.mjs:226:62
+          at Array.map (<anonymous>)
+          at _SharedStylesHost.addUsage (C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\@ang
+ular\platform-browser\fesm2022\dom_renderer-DGKzginR.mjs:226:43)
+          at _SharedStylesHost.addStyles (C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\@an
+gular\platform-browser\fesm2022\dom_renderer-DGKzginR.mjs:196:18)
+          at NoneEncapsulationDomRenderer.applyStyles (C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\nod
+e_modules\@angular\platform-browser\fesm2022\dom_renderer-DGKzginR.mjs:753:31)
+          at _DomRendererFactory2.createRenderer (C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_mod
+ules\@angular\platform-browser\fesm2022\dom_renderer-DGKzginR.mjs:418:22)
+          at createComponentLView 
+(C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\@angular\core\fesm2022\core.mjs:12237:160)
+          at instantiateAllDirectives 
+(C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\@angular\core\fesm2022\core.mjs:12645:9)
+          at createDirectivesInstances 
+(C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\@angular\core\fesm2022\core.mjs:12443:5)
+          at ComponentFactory2.create 
+(C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\@angular\core\fesm2022\core.mjs:18044:17)
+          at createComponent 
+(C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\@angular\core\fesm2022\core.mjs:40526:20)
+          at __CdkPrivateStyleLoader.load (C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\@a
+ngular\cdk\fesm2022\style-loader-Cu9AvjH9.mjs:35:28)
+          at _Overlay.create (C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\@angular\cdk\fe
+sm2022\overlay-module-BUj0D19H.mjs:2516:27)
+          at _MatSnackBar._createOverlay (C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\@an
+gular\material\fesm2022\snack-bar.mjs:745:30)
+          at _MatSnackBar._attach (C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\@angular\m
+aterial\fesm2022\snack-bar.mjs:649:33)
+          at _MatSnackBar.openFromComponent (C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\
+@angular\material\fesm2022\snack-bar.mjs:586:21)
+          at _MatSnackBar.open (C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\@angular\mate
+rial\fesm2022\snack-bar.mjs:614:21)
+          at Object.open (C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\src\app\pages\students\student-f
+orm\student-form.component.ts:109:23)
+          at ConsumerObserver.Object.<anonymous>.ConsumerObserver.next 
+(C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\rxjs\src\internal\Subscriber.ts:155:25)
+          at SafeSubscriber.Object.<anonymous>.Subscriber._next 
+(C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\rxjs\src\internal\Subscriber.ts:113:22)
+          at SafeSubscriber.Object.<anonymous>.Subscriber.next 
+(C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\rxjs\src\internal\Subscriber.ts:71:12)
+          at Observable._subscribe (C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\rxjs\src\
+internal\observable\innerFrom.ts:78:18)
+          at Observable.Object.<anonymous>.Observable._trySubscribe 
+(C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\rxjs\src\internal\Observable.ts:235:19)
+          at 
+C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\rxjs\src\internal\Observable.ts:225:18
+          at Object.errorContext 
+(C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\rxjs\src\internal\util\errorContext.ts:29:5)
+          at Observable.Object.<anonymous>.Observable.subscribe 
+(C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\rxjs\src\internal\Observable.ts:211:5)
+          at StudentFormComponent.subscribe [as createStudent] (C:\Users\the_m\Documents\formation_OC\Projet2\Fron
+t-end\src\app\pages\students\student-form\student-form.component.ts:107:41)
+          at StudentFormComponent.createStudent [as onSubmit] (C:\Users\the_m\Documents\formation_OC\Projet2\Front
+-end\src\app\pages\students\student-form\student-form.component.ts:101:14)
+          at C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\src\app\pages\students\student-form\student-f
+orm.component.spec.ts:261:17
+          at fakeAsyncFn 
+(C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\zone.js\bundles\zone-testing.umd.js:1794:30)
+          at _ZoneDelegate.invoke 
+(C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\zone.js\bundles\zone.umd.js:410:32)
+          at ProxyZoneSpec.Object.<anonymous>.ProxyZoneSpec.onInvoke 
+(C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\zone.js\bundles\zone-testing.umd.js:2219:43)
+          at _ZoneDelegate.invoke 
+(C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\zone.js\bundles\zone.umd.js:409:38)
+          at ZoneImpl.run 
+(C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\zone.js\bundles\zone.umd.js:145:47)
+          at Object.wrappedFunc 
+(C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\zone.js\bundles\zone-testing.umd.js:449:38)
+          at Promise.then.completed 
+(C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\jest-circus\build\utils.js:298:28)
+          at new Promise (<anonymous>)
+          at callAsyncCircusFn 
+(C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\jest-circus\build\utils.js:231:10)
+          at _callCircusTest 
+(C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\jest-circus\build\run.js:316:40)
+          at processTicksAndRejections (node:internal/process/task_queues:103:5)
+          at _runTest 
+(C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\jest-circus\build\run.js:252:3)
+          at _runTestsForDescribeBlock 
+(C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\jest-circus\build\run.js:126:9)
+          at _runTestsForDescribeBlock 
+(C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\jest-circus\build\run.js:121:9)
+          at _runTestsForDescribeBlock 
+(C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\jest-circus\build\run.js:121:9)
+          at run 
+(C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\jest-circus\build\run.js:71:3)
+          at runAndTransformResultsToJestFormat (C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modu
+les\jest-circus\build\legacy-code-todo-rewrite\jestAdapterInit.js:122:21) {
+        detail: '.cdk-overlay-container,.cdk-global-overlay-wrapper{pointer-events:none;top:0;left:0;height:100%;w
+idth:100%}.cdk-overlay-container{position:fixed}@layer cdk-overlay{.cdk-overlay-container{z-index:1000}}.cdk-overl
+ay-container:empty{display:none}.cdk-global-overlay-wrapper{display:flex;position:absolute}@layer cdk-overlay{.cdk
+-global-overlay-wrapper{z-index:1000}}.cdk-overlay-pane{position:absolute;pointer-events:auto;box-sizing:border-bo
+x;display:flex;max-width:100%;max-height:100%}@layer cdk-overlay{.cdk-overlay-pane{z-index:1000}}.cdk-overlay-back
+drop{position:absolute;top:0;bottom:0;left:0;right:0;pointer-events:auto;-webkit-tap-highlight-color:rgba(0,0,0,0)
+;opacity:0;touch-action:manipulation}@layer cdk-overlay{.cdk-overlay-backdrop{z-index:1000;transition:opacity 
+400ms cubic-bezier(0.25, 0.8, 0.25, 1)}}@media(prefers-reduced-motion){.cdk-overlay-backdrop{transition-duration:1
+ms}}.cdk-overlay-backdrop-showing{opacity:1}@media(forced-colors: 
+active){.cdk-overlay-backdrop-showing{opacity:.6}}@layer cdk-overlay{.cdk-overlay-dark-backdrop{background:rgba(0,
+0,0,.32)}}.cdk-overlay-transparent-backdrop{transition:visibility 1ms linear,opacity 1ms linear;visibility:hidden;
+opacity:1}.cdk-overlay-transparent-backdrop.cdk-overlay-backdrop-showing,.cdk-high-contrast-active .cdk-overlay-tr
+ansparent-backdrop{opacity:0;visibility:visible}.cdk-overlay-backdrop-noop-animation{transition:none}.cdk-overlay-
+connected-position-bounding-box{position:absolute;display:flex;flex-direction:column;min-width:1px;min-height:1px}
+@layer cdk-overlay{.cdk-overlay-connected-position-bounding-box{z-index:1000}}.cdk-global-scrollblock{position:fix
+ed;width:100%;overflow-y:scroll}\n',
+        type: 'css parsing'
+      }
+
+    [0m [90m 107 |[39m     
+[36mthis[39m[33m.[39mstudentService[33m.[39mcreate(student)[33m.[39msubscribe({
+     [90m 108 |[39m       next[33m:[39m () [33m=>[39m {
+    [31m[1m>[22m[39m[90m 109 |[39m         [36mthis[39m[33m.[39msnackBar[33m.[39mopen([32m'├ëtudiant 
+cr├®├® avec succ├¿s'[39m[33m,[39m [32m'Fermer'[39m[33m,[39m {
+     [90m     |[39m                       [31m[1m^[22m[39m
+     [90m 110 |[39m           duration[33m:[39m [35m3000[39m
+     [90m 111 |[39m         })[33m;[39m
+     [90m 112 |[39m         
+[36mthis[39m[33m.[39mrouter[33m.[39mnavigate([[32m'/students'[39m])[33m;[39m[0m
+
+      at VirtualConsole.<anonymous> (node_modules/jest-environment-jsdom/build/index.js:63:23)
+      at exports.createStylesheet (node_modules/jsdom/lib/jsdom/living/helpers/stylesheets.js:38:63)
+      at HTMLStyleElementImpl._updateAStyleBlock 
+(node_modules/jsdom/lib/jsdom/living/nodes/HTMLStyleElement-impl.js:68:5)
+      at HTMLStyleElementImpl._attach (node_modules/jsdom/lib/jsdom/living/nodes/HTMLStyleElement-impl.js:19:12)
+      at HTMLHeadElementImpl._insert (node_modules/jsdom/lib/jsdom/living/nodes/Node-impl.js:835:14)
+      at HTMLHeadElementImpl._preInsert (node_modules/jsdom/lib/jsdom/living/nodes/Node-impl.js:756:10)
+      at HTMLHeadElementImpl._append (node_modules/jsdom/lib/jsdom/living/nodes/Node-impl.js:862:17)
+      at HTMLHeadElementImpl.appendChild (node_modules/jsdom/lib/jsdom/living/nodes/Node-impl.js:598:17)
+      at HTMLHeadElement.appendChild (node_modules/jsdom/lib/jsdom/living/generated/Node.js:411:60)
+      at _SharedStylesHost.addElement 
+(node_modules/@angular/platform-browser/fesm2022/dom_renderer-DGKzginR.mjs:278:21)
+      at node_modules/@angular/platform-browser/fesm2022/dom_renderer-DGKzginR.mjs:226:62
+          at Array.map (<anonymous>)
+      at _SharedStylesHost.addUsage 
+(node_modules/@angular/platform-browser/fesm2022/dom_renderer-DGKzginR.mjs:226:43)
+      at _SharedStylesHost.addStyles 
+(node_modules/@angular/platform-browser/fesm2022/dom_renderer-DGKzginR.mjs:196:18)
+      at NoneEncapsulationDomRenderer.applyStyles 
+(node_modules/@angular/platform-browser/fesm2022/dom_renderer-DGKzginR.mjs:753:31)
+      at _DomRendererFactory2.createRenderer 
+(node_modules/@angular/platform-browser/fesm2022/dom_renderer-DGKzginR.mjs:418:22)
+      at createComponentLView (node_modules/@angular/core/fesm2022/core.mjs:12237:160)
+      at instantiateAllDirectives (node_modules/@angular/core/fesm2022/core.mjs:12645:9)
+      at createDirectivesInstances (node_modules/@angular/core/fesm2022/core.mjs:12443:5)
+      at ComponentFactory2.create (node_modules/@angular/core/fesm2022/core.mjs:18044:17)
+      at createComponent (node_modules/@angular/core/fesm2022/core.mjs:40526:20)
+      at __CdkPrivateStyleLoader.load (node_modules/@angular/cdk/fesm2022/style-loader-Cu9AvjH9.mjs:35:28)
+      at _Overlay.create (node_modules/@angular/cdk/fesm2022/overlay-module-BUj0D19H.mjs:2516:27)
+      at _MatSnackBar._createOverlay (node_modules/@angular/material/fesm2022/snack-bar.mjs:745:30)
+      at _MatSnackBar._attach (node_modules/@angular/material/fesm2022/snack-bar.mjs:649:33)
+      at _MatSnackBar.openFromComponent (node_modules/@angular/material/fesm2022/snack-bar.mjs:586:21)
+      at _MatSnackBar.open (node_modules/@angular/material/fesm2022/snack-bar.mjs:614:21)
+      at Object.open (src/app/pages/students/student-form/student-form.component.ts:109:23)
+      at ConsumerObserver.Object.<anonymous>.ConsumerObserver.next 
+(node_modules/rxjs/src/internal/Subscriber.ts:155:25)
+      at SafeSubscriber.Object.<anonymous>.Subscriber._next (node_modules/rxjs/src/internal/Subscriber.ts:113:22)
+      at SafeSubscriber.Object.<anonymous>.Subscriber.next (node_modules/rxjs/src/internal/Subscriber.ts:71:12)
+      at Observable._subscribe (node_modules/rxjs/src/internal/observable/innerFrom.ts:78:18)
+      at Observable.Object.<anonymous>.Observable._trySubscribe 
+(node_modules/rxjs/src/internal/Observable.ts:235:19)
+      at node_modules/rxjs/src/internal/Observable.ts:225:18
+      at Object.errorContext (node_modules/rxjs/src/internal/util/errorContext.ts:29:5)
+      at Observable.Object.<anonymous>.Observable.subscribe (node_modules/rxjs/src/internal/Observable.ts:211:5)
+      at StudentFormComponent.subscribe [as createStudent] 
+(src/app/pages/students/student-form/student-form.component.ts:107:41)
+      at StudentFormComponent.createStudent [as onSubmit] 
+(src/app/pages/students/student-form/student-form.component.ts:101:14)
+      at src/app/pages/students/student-form/student-form.component.spec.ts:261:17
+      at fakeAsyncFn (node_modules/zone.js/bundles/zone-testing.umd.js:1794:30)
+      at _ZoneDelegate.invoke (node_modules/zone.js/bundles/zone.umd.js:410:32)
+      at ProxyZoneSpec.Object.<anonymous>.ProxyZoneSpec.onInvoke 
+(node_modules/zone.js/bundles/zone-testing.umd.js:2219:43)
+      at _ZoneDelegate.invoke (node_modules/zone.js/bundles/zone.umd.js:409:38)
+      at ZoneImpl.run (node_modules/zone.js/bundles/zone.umd.js:145:47)
+      at Object.wrappedFunc (node_modules/zone.js/bundles/zone-testing.umd.js:449:38)
+
+    console.error
+      Error: Could not parse CSS stylesheet
+          at exports.createStylesheet (C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\jsdom\
+lib\jsdom\living\helpers\stylesheets.js:34:21)
+          at HTMLStyleElementImpl._updateAStyleBlock (C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node
+_modules\jsdom\lib\jsdom\living\nodes\HTMLStyleElement-impl.js:68:5)
+          at HTMLStyleElementImpl._attach (C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\js
+dom\lib\jsdom\living\nodes\HTMLStyleElement-impl.js:19:12)
+          at HTMLHeadElementImpl._insert (C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\jsd
+om\lib\jsdom\living\nodes\Node-impl.js:835:14)
+          at HTMLHeadElementImpl._preInsert (C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\
+jsdom\lib\jsdom\living\nodes\Node-impl.js:756:10)
+          at HTMLHeadElementImpl._append (C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\jsd
+om\lib\jsdom\living\nodes\Node-impl.js:862:17)
+          at HTMLHeadElementImpl.appendChild (C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules
+\jsdom\lib\jsdom\living\nodes\Node-impl.js:598:17)
+          at HTMLHeadElement.appendChild (C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\jsd
+om\lib\jsdom\living\generated\Node.js:411:60)
+          at _SharedStylesHost.addElement (C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\@a
+ngular\platform-browser\fesm2022\dom_renderer-DGKzginR.mjs:278:21)
+          at C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\@angular\platform-browser\fesm20
+22\dom_renderer-DGKzginR.mjs:226:62
+          at Array.map (<anonymous>)
+          at _SharedStylesHost.addUsage (C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\@ang
+ular\platform-browser\fesm2022\dom_renderer-DGKzginR.mjs:226:43)
+          at _SharedStylesHost.addStyles (C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\@an
+gular\platform-browser\fesm2022\dom_renderer-DGKzginR.mjs:196:18)
+          at NoneEncapsulationDomRenderer.applyStyles (C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\nod
+e_modules\@angular\platform-browser\fesm2022\dom_renderer-DGKzginR.mjs:753:31)
+          at _DomRendererFactory2.createRenderer (C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_mod
+ules\@angular\platform-browser\fesm2022\dom_renderer-DGKzginR.mjs:418:22)
+          at createComponentLView 
+(C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\@angular\core\fesm2022\core.mjs:12237:160)
+          at instantiateAllDirectives 
+(C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\@angular\core\fesm2022\core.mjs:12645:9)
+          at createDirectivesInstances 
+(C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\@angular\core\fesm2022\core.mjs:12443:5)
+          at ComponentFactory2.create 
+(C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\@angular\core\fesm2022\core.mjs:18044:17)
+          at createComponent 
+(C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\@angular\core\fesm2022\core.mjs:40526:20)
+          at __CdkPrivateStyleLoader.load (C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\@a
+ngular\cdk\fesm2022\style-loader-Cu9AvjH9.mjs:35:28)
+          at _Overlay.create (C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\@angular\cdk\fe
+sm2022\overlay-module-BUj0D19H.mjs:2516:27)
+          at _MatSnackBar._createOverlay (C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\@an
+gular\material\fesm2022\snack-bar.mjs:745:30)
+          at _MatSnackBar._attach (C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\@angular\m
+aterial\fesm2022\snack-bar.mjs:649:33)
+          at _MatSnackBar.openFromComponent (C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\
+@angular\material\fesm2022\snack-bar.mjs:586:21)
+          at _MatSnackBar.open (C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\@angular\mate
+rial\fesm2022\snack-bar.mjs:614:21)
+          at Object.open (C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\src\app\pages\students\student-f
+orm\student-form.component.ts:109:23)
+          at ConsumerObserver.Object.<anonymous>.ConsumerObserver.next 
+(C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\rxjs\src\internal\Subscriber.ts:155:25)
+          at SafeSubscriber.Object.<anonymous>.Subscriber._next 
+(C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\rxjs\src\internal\Subscriber.ts:113:22)
+          at SafeSubscriber.Object.<anonymous>.Subscriber.next 
+(C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\rxjs\src\internal\Subscriber.ts:71:12)
+          at Observable._subscribe (C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\rxjs\src\
+internal\observable\innerFrom.ts:78:18)
+          at Observable.Object.<anonymous>.Observable._trySubscribe 
+(C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\rxjs\src\internal\Observable.ts:235:19)
+          at 
+C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\rxjs\src\internal\Observable.ts:225:18
+          at Object.errorContext 
+(C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\rxjs\src\internal\util\errorContext.ts:29:5)
+          at Observable.Object.<anonymous>.Observable.subscribe 
+(C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\rxjs\src\internal\Observable.ts:211:5)
+          at StudentFormComponent.subscribe [as createStudent] (C:\Users\the_m\Documents\formation_OC\Projet2\Fron
+t-end\src\app\pages\students\student-form\student-form.component.ts:107:41)
+          at StudentFormComponent.createStudent [as onSubmit] (C:\Users\the_m\Documents\formation_OC\Projet2\Front
+-end\src\app\pages\students\student-form\student-form.component.ts:101:14)
+          at C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\src\app\pages\students\student-form\student-f
+orm.component.spec.ts:281:17
+          at fakeAsyncFn 
+(C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\zone.js\bundles\zone-testing.umd.js:1794:30)
+          at _ZoneDelegate.invoke 
+(C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\zone.js\bundles\zone.umd.js:410:32)
+          at ProxyZoneSpec.Object.<anonymous>.ProxyZoneSpec.onInvoke 
+(C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\zone.js\bundles\zone-testing.umd.js:2219:43)
+          at _ZoneDelegate.invoke 
+(C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\zone.js\bundles\zone.umd.js:409:38)
+          at ZoneImpl.run 
+(C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\zone.js\bundles\zone.umd.js:145:47)
+          at Object.wrappedFunc 
+(C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\zone.js\bundles\zone-testing.umd.js:449:38)
+          at Promise.then.completed 
+(C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\jest-circus\build\utils.js:298:28)
+          at new Promise (<anonymous>)
+          at callAsyncCircusFn 
+(C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\jest-circus\build\utils.js:231:10)
+          at _callCircusTest 
+(C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\jest-circus\build\run.js:316:40)
+          at processTicksAndRejections (node:internal/process/task_queues:103:5)
+          at _runTest 
+(C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\jest-circus\build\run.js:252:3)
+          at _runTestsForDescribeBlock 
+(C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\jest-circus\build\run.js:126:9)
+          at _runTestsForDescribeBlock 
+(C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\jest-circus\build\run.js:121:9)
+          at _runTestsForDescribeBlock 
+(C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\jest-circus\build\run.js:121:9)
+          at run 
+(C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modules\jest-circus\build\run.js:71:3)
+          at runAndTransformResultsToJestFormat (C:\Users\the_m\Documents\formation_OC\Projet2\Front-end\node_modu
+les\jest-circus\build\legacy-code-todo-rewrite\jestAdapterInit.js:122:21) {
+        detail: '.cdk-overlay-container,.cdk-global-overlay-wrapper{pointer-events:none;top:0;left:0;height:100%;w
+idth:100%}.cdk-overlay-container{position:fixed}@layer cdk-overlay{.cdk-overlay-container{z-index:1000}}.cdk-overl
+ay-container:empty{display:none}.cdk-global-overlay-wrapper{display:flex;position:absolute}@layer cdk-overlay{.cdk
+-global-overlay-wrapper{z-index:1000}}.cdk-overlay-pane{position:absolute;pointer-events:auto;box-sizing:border-bo
+x;display:flex;max-width:100%;max-height:100%}@layer cdk-overlay{.cdk-overlay-pane{z-index:1000}}.cdk-overlay-back
+drop{position:absolute;top:0;bottom:0;left:0;right:0;pointer-events:auto;-webkit-tap-highlight-color:rgba(0,0,0,0)
+;opacity:0;touch-action:manipulation}@layer cdk-overlay{.cdk-overlay-backdrop{z-index:1000;transition:opacity 
+400ms cubic-bezier(0.25, 0.8, 0.25, 1)}}@media(prefers-reduced-motion){.cdk-overlay-backdrop{transition-duration:1
+ms}}.cdk-overlay-backdrop-showing{opacity:1}@media(forced-colors: 
+active){.cdk-overlay-backdrop-showing{opacity:.6}}@layer cdk-overlay{.cdk-overlay-dark-backdrop{background:rgba(0,
+0,0,.32)}}.cdk-overlay-transparent-backdrop{transition:visibility 1ms linear,opacity 1ms linear;visibility:hidden;
+opacity:1}.cdk-overlay-transparent-backdrop.cdk-overlay-backdrop-showing,.cdk-high-contrast-active .cdk-overlay-tr
+ansparent-backdrop{opacity:0;visibility:visible}.cdk-overlay-backdrop-noop-animation{transition:none}.cdk-overlay-
+connected-position-bounding-box{position:absolute;display:flex;flex-direction:column;min-width:1px;min-height:1px}
+@layer cdk-overlay{.cdk-overlay-connected-position-bounding-box{z-index:1000}}.cdk-global-scrollblock{position:fix
+ed;width:100%;overflow-y:scroll}\n',
+        type: 'css parsing'
+      }
+
+    [0m [90m 107 |[39m     
+[36mthis[39m[33m.[39mstudentService[33m.[39mcreate(student)[33m.[39msubscribe({
+     [90m 108 |[39m       next[33m:[39m () [33m=>[39m {
+    [31m[1m>[22m[39m[90m 109 |[39m         [36mthis[39m[33m.[39msnackBar[33m.[39mopen([32m'├ëtudiant 
+cr├®├® avec succ├¿s'[39m[33m,[39m [32m'Fermer'[39m[33m,[39m {
+     [90m     |[39m                       [31m[1m^[22m[39m
+     [90m 110 |[39m           duration[33m:[39m [35m3000[39m
+     [90m 111 |[39m         })[33m;[39m
+     [90m 112 |[39m         
+[36mthis[39m[33m.[39mrouter[33m.[39mnavigate([[32m'/students'[39m])[33m;[39m[0m
+
+      at VirtualConsole.<anonymous> (node_modules/jest-environment-jsdom/build/index.js:63:23)
+      at exports.createStylesheet (node_modules/jsdom/lib/jsdom/living/helpers/stylesheets.js:38:63)
+      at HTMLStyleElementImpl._updateAStyleBlock 
+(node_modules/jsdom/lib/jsdom/living/nodes/HTMLStyleElement-impl.js:68:5)
+      at HTMLStyleElementImpl._attach (node_modules/jsdom/lib/jsdom/living/nodes/HTMLStyleElement-impl.js:19:12)
+      at HTMLHeadElementImpl._insert (node_modules/jsdom/lib/jsdom/living/nodes/Node-impl.js:835:14)
+      at HTMLHeadElementImpl._preInsert (node_modules/jsdom/lib/jsdom/living/nodes/Node-impl.js:756:10)
+      at HTMLHeadElementImpl._append (node_modules/jsdom/lib/jsdom/living/nodes/Node-impl.js:862:17)
+      at HTMLHeadElementImpl.appendChild (node_modules/jsdom/lib/jsdom/living/nodes/Node-impl.js:598:17)
+      at HTMLHeadElement.appendChild (node_modules/jsdom/lib/jsdom/living/generated/Node.js:411:60)
+      at _SharedStylesHost.addElement 
+(node_modules/@angular/platform-browser/fesm2022/dom_renderer-DGKzginR.mjs:278:21)
+      at node_modules/@angular/platform-browser/fesm2022/dom_renderer-DGKzginR.mjs:226:62
+          at Array.map (<anonymous>)
+      at _SharedStylesHost.addUsage 
+(node_modules/@angular/platform-browser/fesm2022/dom_renderer-DGKzginR.mjs:226:43)
+      at _SharedStylesHost.addStyles 
+(node_modules/@angular/platform-browser/fesm2022/dom_renderer-DGKzginR.mjs:196:18)
+      at NoneEncapsulationDomRenderer.applyStyles 
+(node_modules/@angular/platform-browser/fesm2022/dom_renderer-DGKzginR.mjs:753:31)
+      at _DomRendererFactory2.createRenderer 
+(node_modules/@angular/platform-browser/fesm2022/dom_renderer-DGKzginR.mjs:418:22)
+      at createComponentLView (node_modules/@angular/core/fesm2022/core.mjs:12237:160)
+      at instantiateAllDirectives (node_modules/@angular/core/fesm2022/core.mjs:12645:9)
+      at createDirectivesInstances (node_modules/@angular/core/fesm2022/core.mjs:12443:5)
+      at ComponentFactory2.create (node_modules/@angular/core/fesm2022/core.mjs:18044:17)
+      at createComponent (node_modules/@angular/core/fesm2022/core.mjs:40526:20)
+      at __CdkPrivateStyleLoader.load (node_modules/@angular/cdk/fesm2022/style-loader-Cu9AvjH9.mjs:35:28)
+      at _Overlay.create (node_modules/@angular/cdk/fesm2022/overlay-module-BUj0D19H.mjs:2516:27)
+      at _MatSnackBar._createOverlay (node_modules/@angular/material/fesm2022/snack-bar.mjs:745:30)
+      at _MatSnackBar._attach (node_modules/@angular/material/fesm2022/snack-bar.mjs:649:33)
+      at _MatSnackBar.openFromComponent (node_modules/@angular/material/fesm2022/snack-bar.mjs:586:21)
+      at _MatSnackBar.open (node_modules/@angular/material/fesm2022/snack-bar.mjs:614:21)
+      at Object.open (src/app/pages/students/student-form/student-form.component.ts:109:23)
+      at ConsumerObserver.Object.<anonymous>.ConsumerObserver.next 
+(node_modules/rxjs/src/internal/Subscriber.ts:155:25)
+      at SafeSubscriber.Object.<anonymous>.Subscriber._next (node_modules/rxjs/src/internal/Subscriber.ts:113:22)
+      at SafeSubscriber.Object.<anonymous>.Subscriber.next (node_modules/rxjs/src/internal/Subscriber.ts:71:12)
+      at Observable._subscribe (node_modules/rxjs/src/internal/observable/innerFrom.ts:78:18)
+      at Observable.Object.<anonymous>.Observable._trySubscribe 
+(node_modules/rxjs/src/internal/Observable.ts:235:19)
+      at node_modules/rxjs/src/internal/Observable.ts:225:18
+      at Object.errorContext (node_modules/rxjs/src/internal/util/errorContext.ts:29:5)
+      at Observable.Object.<anonymous>.Observable.subscribe (node_modules/rxjs/src/internal/Observable.ts:211:5)
+      at StudentFormComponent.subscribe [as createStudent] 
+(src/app/pages/students/student-form/student-form.component.ts:107:41)
+      at StudentFormComponent.createStudent [as onSubmit] 
+(src/app/pages/students/student-form/student-form.component.ts:101:14)
+      at src/app/pages/students/student-form/student-form.component.spec.ts:281:17
+      at fakeAsyncFn (node_modules/zone.js/bundles/zone-testing.umd.js:1794:30)
+      at _ZoneDelegate.invoke (node_modules/zone.js/bundles/zone.umd.js:410:32)
+      at ProxyZoneSpec.Object.<anonymous>.ProxyZoneSpec.onInvoke 
+(node_modules/zone.js/bundles/zone-testing.umd.js:2219:43)
+      at _ZoneDelegate.invoke (node_modules/zone.js/bundles/zone.umd.js:409:38)
+      at ZoneImpl.run (node_modules/zone.js/bundles/zone.umd.js:145:47)
+      at Object.wrappedFunc (node_modules/zone.js/bundles/zone-testing.umd.js:449:38)
+
+
+Test Suites: 9 passed, 9 total
+Tests:       95 passed, 95 total
+Snapshots:   0 total
+Time:        8.284 s
+Ran all test suites.

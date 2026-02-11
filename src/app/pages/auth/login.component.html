@@ -1,0 +1,58 @@
+<div class="login-container">
+  <div class="login-card">
+    <h2>Connexion</h2>
+    
+    <form [formGroup]="loginForm" (ngSubmit)="onSubmit()">
+      <!-- Email Input -->
+      <div class="form-group">
+        <label for="login">Email</label>
+        <input 
+          id="login"
+          type="email" 
+          formControlName="login" 
+          class="form-control"
+          placeholder="Entrez votre email"
+          [class.is-invalid]="submitted && form['login'].errors"
+        />
+        <div *ngIf="submitted && form['login'].errors" class="error-message">
+          <span *ngIf="form['login'].errors['required']">Email requis</span>
+        </div>
+      </div>
+
+      <!-- Password Input -->
+      <div class="form-group">
+        <label for="password">Mot de passe</label>
+        <input 
+          id="password"
+          type="password" 
+          formControlName="password" 
+          class="form-control"
+          placeholder="Entrez votre mot de passe"
+          [class.is-invalid]="submitted && form['password'].errors"
+        />
+        <div *ngIf="submitted && form['password'].errors" class="error-message">
+          <span *ngIf="form['password'].errors['required']">Mot de passe requis</span>
+        </div>
+      </div>
+
+      <!-- Error Message -->
+      <div *ngIf="errorMessage" class="alert alert-danger">
+        {{ errorMessage }}
+      </div>
+
+      <!-- Buttons -->
+      <div class="button-group">
+        <button type="submit" class="btn btn-primary" [disabled]="loading">
+          {{ loading ? 'Connexion en cours...' : 'Connexion' }}
+        </button>
+        <button type="reset" class="btn btn-secondary" (click)="onReset()">
+          Réinitialiser
+        </button>
+      </div>
+    </form>
+
+    <p class="register-link">
+      Pas de compte ? <a routerLink="/register">S'inscrire</a>
+    </p>
+  </div>
+</div>

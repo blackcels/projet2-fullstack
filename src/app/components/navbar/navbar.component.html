@@ -1,0 +1,15 @@
+<mat-toolbar color="primary" class="mat-toolbar mat-primary mat-toolbar-single-row">
+  <span class="navbar-title">Gestion Étudiants</span>
+  
+  <span class="spacer"></span>
+  
+  <button mat-button routerLink="/students" *ngIf="isLoggedIn">
+    <mat-icon>people</mat-icon>
+    Étudiants
+  </button>
+  
+  <button mat-button (click)="logout()" *ngIf="isLoggedIn">
+    <mat-icon>logout</mat-icon>
+    Déconnexion
+  </button>
+</mat-toolbar>

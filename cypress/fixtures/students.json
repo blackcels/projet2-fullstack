@@ -1,0 +1,82 @@
+{
+  "students": [
+    {
+      "id": 1,
+      "firstName": "Jean",
+      "lastName": "Dupont",
+      "email": "jean@example.com",
+      "phone": "06 12 34 56 78"
+    },
+    {
+      "id": 2,
+      "firstName": "Marie",
+      "lastName": "Martin",
+      "email": "marie@example.com",
+      "phone": "06 87 65 43 21"
+    },
+    {
+      "id": 3,
+      "firstName": "Pierre",
+      "lastName": "Bernard",
+      "email": "pierre@example.com",
+      "phone": "06 34 56 78 90"
+    }
+  ],
+  "studentDetail": {
+    "id": 1,
+    "firstName": "Jean",
+    "lastName": "Dupont",
+    "email": "jean@example.com",
+    "phone": "06 12 34 56 78"
+  },
+  "createSuccess": {
+    "statusCode": 201,
+    "body": {
+      "id": 4,
+      "firstName": "Alice",
+      "lastName": "Wonder",
+      "email": "alice@example.com",
+      "phone": "06 11 22 33 44"
+    }
+  },
+  "updateSuccess": {
+    "statusCode": 200,
+    "body": {
+      "id": 1,
+      "firstName": "Jean",
+      "lastName": "Martin",
+      "email": "jean.martin@example.com",
+      "phone": "06 98 76 54 32"
+    }
+  },
+  "deleteSuccess": {
+    "statusCode": 204,
+    "body": {}
+  },
+  "listSuccess": {
+    "statusCode": 200,
+    "body": [
+      {
+        "id": 1,
+        "firstName": "Jean",
+        "lastName": "Dupont",
+        "email": "jean@example.com",
+        "phone": "06 12 34 56 78"
+      },
+      {
+        "id": 2,
+        "firstName": "Marie",
+        "lastName": "Martin",
+        "email": "marie@example.com",
+        "phone": "06 87 65 43 21"
+      },
+      {
+        "id": 3,
+        "firstName": "Pierre",
+        "lastName": "Bernard",
+        "email": "pierre@example.com",
+        "phone": "06 34 56 78 90"
+      }
+    ]
+  }
+}

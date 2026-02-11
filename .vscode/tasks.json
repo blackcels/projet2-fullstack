@@ -1,42 +1,50 @@
 {
-  // For more information, visit: https://go.microsoft.com/fwlink/?LinkId=733558
   "version": "2.0.0",
   "tasks": [
     {
-      "type": "npm",
-      "script": "start",
+      "label": "Start Backend",
+      "type": "shell",
+      "command": "./mvnw spring-boot:run",
+      "options": { "cwd": "${workspaceFolder}/../Back-end" },
       "isBackground": true,
-      "problemMatcher": {
-        "owner": "typescript",
-        "pattern": "$tsc",
-        "background": {
-          "activeOnStart": true,
-          "beginsPattern": {
-            "regexp": "(.*?)"
-          },
-          "endsPattern": {
-            "regexp": "bundle generation complete"
+      "problemMatcher": [
+        {
+          "owner": "spring-boot",
+          "pattern": [
+            { "regexp": "^.*$", "message": 0 }
+          ],
+          "background": {
+            "activeOnStart": true,
+            "beginsPattern": ".*Starting .*",
+            "endsPattern": ".*Started .* in .*seconds.*"
           }
         }
-      }
+      ]
     },
     {
-      "type": "npm",
-      "script": "test",
+      "label": "Start Frontend",
+      "type": "shell",
+      "command": "npm start",
+      "options": { "cwd": "${workspaceFolder}" },
       "isBackground": true,
-      "problemMatcher": {
-        "owner": "typescript",
-        "pattern": "$tsc",
-        "background": {
-          "activeOnStart": true,
-          "beginsPattern": {
-            "regexp": "(.*?)"
-          },
-          "endsPattern": {
-            "regexp": "bundle generation complete"
+      "problemMatcher": [
+        {
+          "owner": "angular",
+          "pattern": [
+            { "regexp": "^.*$", "message": 0 }
+          ],
+          "background": {
+            "activeOnStart": true,
+            "beginsPattern": ".*Starting.*|.*Starting dev server.*",
+            "endsPattern": ".*Compiled successfully.*|.*listening on.*"
           }
         }
-      }
+      ]
+    },
+    {
+      "label": "Start All",
+      "dependsOn": ["Start Backend", "Start Frontend"],
+      "dependsOrder": "sequence"
     }
   ]
 }
